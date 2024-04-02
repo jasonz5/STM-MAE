@@ -1,0 +1,1449 @@
+2023-12-19 11:33:24,726 - easytorch-training - INFO - Initializing training.
+2023-12-19 11:33:24,726 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2023-12-19 11:33:24,727 - easytorch-training - INFO - Building training data loader.
+2023-12-19 11:33:24,789 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: [0.9, 0.95]
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+2023-12-19 11:33:24,789 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x7ffa84f9bac0>
+2023-12-19 11:33:24,791 - easytorch-training - INFO - Initializing validation.
+2023-12-19 11:33:24,791 - easytorch-training - INFO - Building val data loader.
+2023-12-19 11:33:24,886 - easytorch-training - INFO - Epoch 1 / 200
+2023-12-19 11:38:46,302 - easytorch-training - INFO - Result <train>: [train_time: 321.42 (s), lr: 1.00e-03, train_MAE: 31.4566, train_RMSE: 46.6538, train_MAPE: 0.2696]
+2023-12-19 11:38:46,303 - easytorch-training - INFO - Start validation.
+2023-12-19 11:39:23,522 - easytorch-training - INFO - Result <val>: [val_time: 37.22 (s), val_MAE: 19.0280, val_RMSE: 29.4454, val_MAPE: 0.1448]
+2023-12-19 11:39:23,553 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 11:40:06,447 - easytorch-training - INFO - Result <test>: [test_time: 42.89 (s), test_MAE: 18.7935, test_RMSE: 29.1518, test_MAPE: 0.1511]
+2023-12-19 11:40:06,467 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_001.pt saved
+2023-12-19 11:40:06,468 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:52:01
+2023-12-19 11:40:06,468 - easytorch-training - INFO - Epoch 2 / 200
+2023-12-19 11:47:49,566 - easytorch-training - INFO - Result <train>: [train_time: 463.10 (s), lr: 1.00e-03, train_MAE: 19.3407, train_RMSE: 30.4625, train_MAPE: 0.1418]
+2023-12-19 11:47:49,567 - easytorch-training - INFO - Start validation.
+2023-12-19 11:49:07,857 - easytorch-training - INFO - Result <val>: [val_time: 78.29 (s), val_MAE: 18.0417, val_RMSE: 27.9065, val_MAPE: 0.1384]
+2023-12-19 11:49:07,889 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 11:50:26,413 - easytorch-training - INFO - Result <test>: [test_time: 78.52 (s), test_MAE: 17.8506, test_RMSE: 27.6237, test_MAPE: 0.1390]
+2023-12-19 11:50:26,435 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_002.pt saved
+2023-12-19 11:50:26,436 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 15:55:59
+2023-12-19 11:50:26,436 - easytorch-training - INFO - Epoch 3 / 200
+2023-12-19 11:59:16,990 - easytorch-training - INFO - Result <train>: [train_time: 530.55 (s), lr: 1.00e-03, train_MAE: 17.8149, train_RMSE: 28.2598, train_MAPE: 0.1260]
+2023-12-19 11:59:16,991 - easytorch-training - INFO - Start validation.
+2023-12-19 11:59:49,603 - easytorch-training - INFO - Result <val>: [val_time: 32.61 (s), val_MAE: 16.2849, val_RMSE: 25.4387, val_MAPE: 0.1277]
+2023-12-19 11:59:49,635 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 12:00:22,260 - easytorch-training - INFO - Result <test>: [test_time: 32.62 (s), test_MAE: 16.1236, test_RMSE: 25.1510, test_MAPE: 0.1268]
+2023-12-19 12:00:22,284 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_003.pt saved
+2023-12-19 12:00:22,284 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 17:30:31
+2023-12-19 12:00:22,284 - easytorch-training - INFO - Epoch 4 / 200
+2023-12-19 12:05:41,661 - easytorch-training - INFO - Result <train>: [train_time: 319.38 (s), lr: 1.00e-03, train_MAE: 16.7739, train_RMSE: 26.6632, train_MAPE: 0.1184]
+2023-12-19 12:05:41,662 - easytorch-training - INFO - Start validation.
+2023-12-19 12:06:22,139 - easytorch-training - INFO - Result <val>: [val_time: 40.48 (s), val_MAE: 15.3076, val_RMSE: 24.2027, val_MAPE: 0.1215]
+2023-12-19 12:06:22,176 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 12:07:30,420 - easytorch-training - INFO - Result <test>: [test_time: 68.24 (s), test_MAE: 15.1327, test_RMSE: 23.9331, test_MAPE: 0.1230]
+2023-12-19 12:07:30,441 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_004.pt saved
+2023-12-19 12:07:30,441 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 15:58:02
+2023-12-19 12:07:30,441 - easytorch-training - INFO - Epoch 5 / 200
+2023-12-19 12:12:22,660 - easytorch-training - INFO - Result <train>: [train_time: 292.22 (s), lr: 1.00e-03, train_MAE: 16.1593, train_RMSE: 25.7659, train_MAPE: 0.1132]
+2023-12-19 12:12:22,661 - easytorch-training - INFO - Start validation.
+2023-12-19 12:13:31,400 - easytorch-training - INFO - Result <val>: [val_time: 68.74 (s), val_MAE: 14.8467, val_RMSE: 23.6421, val_MAPE: 0.1141]
+2023-12-19 12:13:31,434 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 12:14:40,396 - easytorch-training - INFO - Result <test>: [test_time: 68.96 (s), test_MAE: 14.7404, test_RMSE: 23.4615, test_MAPE: 0.1164]
+2023-12-19 12:14:40,417 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_005.pt saved
+2023-12-19 12:14:40,417 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 15:03:46
+2023-12-19 12:14:40,417 - easytorch-training - INFO - Epoch 6 / 200
+2023-12-19 12:22:54,669 - easytorch-training - INFO - Result <train>: [train_time: 494.25 (s), lr: 1.00e-03, train_MAE: 15.7763, train_RMSE: 25.2069, train_MAPE: 0.1098]
+2023-12-19 12:22:54,670 - easytorch-training - INFO - Start validation.
+2023-12-19 12:24:04,950 - easytorch-training - INFO - Result <val>: [val_time: 70.28 (s), val_MAE: 14.6562, val_RMSE: 23.4551, val_MAPE: 0.1116]
+2023-12-19 12:24:04,982 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 12:25:18,241 - easytorch-training - INFO - Result <test>: [test_time: 73.26 (s), test_MAE: 14.5359, test_RMSE: 23.3533, test_MAPE: 0.1137]
+2023-12-19 12:25:18,265 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_006.pt saved
+2023-12-19 12:25:18,265 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 16:23:04
+2023-12-19 12:25:18,265 - easytorch-training - INFO - Epoch 7 / 200
+2023-12-19 12:31:13,996 - easytorch-training - INFO - Result <train>: [train_time: 355.73 (s), lr: 1.00e-03, train_MAE: 15.5478, train_RMSE: 24.8939, train_MAPE: 0.1079]
+2023-12-19 12:31:13,997 - easytorch-training - INFO - Start validation.
+2023-12-19 12:32:24,048 - easytorch-training - INFO - Result <val>: [val_time: 70.05 (s), val_MAE: 14.9662, val_RMSE: 23.6594, val_MAPE: 0.1210]
+2023-12-19 12:33:33,506 - easytorch-training - INFO - Result <test>: [test_time: 69.46 (s), test_MAE: 14.8141, test_RMSE: 23.4517, test_MAPE: 0.1224]
+2023-12-19 12:33:33,528 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_007.pt saved
+2023-12-19 12:33:33,528 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 16:11:48
+2023-12-19 12:33:33,528 - easytorch-training - INFO - Epoch 8 / 200
+2023-12-19 12:41:49,221 - easytorch-training - INFO - Result <train>: [train_time: 495.69 (s), lr: 1.00e-03, train_MAE: 15.2920, train_RMSE: 24.5210, train_MAPE: 0.1056]
+2023-12-19 12:41:49,222 - easytorch-training - INFO - Start validation.
+2023-12-19 12:42:59,626 - easytorch-training - INFO - Result <val>: [val_time: 70.40 (s), val_MAE: 14.6333, val_RMSE: 23.4182, val_MAPE: 0.1183]
+2023-12-19 12:42:59,663 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 12:44:09,308 - easytorch-training - INFO - Result <test>: [test_time: 69.64 (s), test_MAE: 14.5610, test_RMSE: 23.3924, test_MAPE: 0.1222]
+2023-12-19 12:44:09,331 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_008.pt saved
+2023-12-19 12:44:09,331 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 17:01:56
+2023-12-19 12:44:09,331 - easytorch-training - INFO - Epoch 9 / 200
+2023-12-19 12:52:25,413 - easytorch-training - INFO - Result <train>: [train_time: 496.08 (s), lr: 1.00e-03, train_MAE: 15.1668, train_RMSE: 24.3458, train_MAPE: 0.1045]
+2023-12-19 12:52:25,414 - easytorch-training - INFO - Start validation.
+2023-12-19 12:53:34,422 - easytorch-training - INFO - Result <val>: [val_time: 69.01 (s), val_MAE: 14.3440, val_RMSE: 23.0566, val_MAPE: 0.1112]
+2023-12-19 12:53:34,460 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 12:54:43,760 - easytorch-training - INFO - Result <test>: [test_time: 69.30 (s), test_MAE: 14.2623, test_RMSE: 22.9706, test_MAPE: 0.1149]
+2023-12-19 12:54:43,781 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_009.pt saved
+2023-12-19 12:54:43,782 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 17:40:24
+2023-12-19 12:54:43,782 - easytorch-training - INFO - Epoch 10 / 200
+2023-12-19 13:02:59,075 - easytorch-training - INFO - Result <train>: [train_time: 495.29 (s), lr: 1.00e-03, train_MAE: 15.0583, train_RMSE: 24.1954, train_MAPE: 0.1037]
+2023-12-19 13:02:59,076 - easytorch-training - INFO - Start validation.
+2023-12-19 13:04:08,546 - easytorch-training - INFO - Result <val>: [val_time: 69.47 (s), val_MAE: 14.3950, val_RMSE: 23.2055, val_MAPE: 0.1200]
+2023-12-19 13:05:17,594 - easytorch-training - INFO - Result <test>: [test_time: 69.05 (s), test_MAE: 14.3067, test_RMSE: 23.0176, test_MAPE: 0.1220]
+2023-12-19 13:05:17,616 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_010.pt saved
+2023-12-19 13:05:17,624 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 18:10:59
+2023-12-19 13:05:17,624 - easytorch-training - INFO - Epoch 11 / 200
+2023-12-19 13:13:32,192 - easytorch-training - INFO - Result <train>: [train_time: 494.57 (s), lr: 1.00e-03, train_MAE: 14.9402, train_RMSE: 24.0271, train_MAPE: 0.1023]
+2023-12-19 13:13:32,193 - easytorch-training - INFO - Start validation.
+2023-12-19 13:14:42,875 - easytorch-training - INFO - Result <val>: [val_time: 70.68 (s), val_MAE: 14.4585, val_RMSE: 23.0632, val_MAPE: 0.1087]
+2023-12-19 13:15:52,073 - easytorch-training - INFO - Result <test>: [test_time: 69.20 (s), test_MAE: 14.4244, test_RMSE: 23.0894, test_MAPE: 0.1141]
+2023-12-19 13:15:52,094 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_011.pt saved
+2023-12-19 13:15:52,094 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 18:36:12
+2023-12-19 13:15:52,094 - easytorch-training - INFO - Epoch 12 / 200
+2023-12-19 13:24:07,333 - easytorch-training - INFO - Result <train>: [train_time: 495.24 (s), lr: 1.00e-03, train_MAE: 14.8401, train_RMSE: 23.8781, train_MAPE: 0.1018]
+2023-12-19 13:24:07,334 - easytorch-training - INFO - Start validation.
+2023-12-19 13:25:16,487 - easytorch-training - INFO - Result <val>: [val_time: 69.15 (s), val_MAE: 14.1212, val_RMSE: 22.8135, val_MAPE: 0.1051]
+2023-12-19 13:25:16,517 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 13:26:25,685 - easytorch-training - INFO - Result <test>: [test_time: 69.17 (s), test_MAE: 14.0279, test_RMSE: 22.6389, test_MAPE: 0.1091]
+2023-12-19 13:26:25,713 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_012.pt saved
+2023-12-19 13:26:25,713 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 18:56:58
+2023-12-19 13:26:25,713 - easytorch-training - INFO - Epoch 13 / 200
+2023-12-19 13:34:40,325 - easytorch-training - INFO - Result <train>: [train_time: 494.61 (s), lr: 1.00e-03, train_MAE: 14.7567, train_RMSE: 23.7500, train_MAPE: 0.1008]
+2023-12-19 13:34:40,326 - easytorch-training - INFO - Start validation.
+2023-12-19 13:35:31,179 - easytorch-training - INFO - Result <val>: [val_time: 50.85 (s), val_MAE: 14.0550, val_RMSE: 22.8587, val_MAPE: 0.1031]
+2023-12-19 13:35:31,225 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 13:36:03,886 - easytorch-training - INFO - Result <test>: [test_time: 32.66 (s), test_MAE: 14.0236, test_RMSE: 22.7966, test_MAPE: 0.1105]
+2023-12-19 13:36:03,910 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_013.pt saved
+2023-12-19 13:36:03,911 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 19:00:20
+2023-12-19 13:36:03,911 - easytorch-training - INFO - Epoch 14 / 200
+2023-12-19 13:40:14,877 - easytorch-training - INFO - Result <train>: [train_time: 250.97 (s), lr: 1.00e-03, train_MAE: 14.6900, train_RMSE: 23.6533, train_MAPE: 0.1003]
+2023-12-19 13:40:14,878 - easytorch-training - INFO - Start validation.
+2023-12-19 13:40:47,550 - easytorch-training - INFO - Result <val>: [val_time: 32.67 (s), val_MAE: 14.1653, val_RMSE: 22.9660, val_MAPE: 0.1103]
+2023-12-19 13:41:19,377 - easytorch-training - INFO - Result <test>: [test_time: 31.83 (s), test_MAE: 14.0926, test_RMSE: 22.8923, test_MAPE: 0.1161]
+2023-12-19 13:41:19,399 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_014.pt saved
+2023-12-19 13:41:19,399 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 18:00:40
+2023-12-19 13:41:19,399 - easytorch-training - INFO - Epoch 15 / 200
+2023-12-19 13:45:28,789 - easytorch-training - INFO - Result <train>: [train_time: 249.39 (s), lr: 1.00e-03, train_MAE: 14.5973, train_RMSE: 23.5350, train_MAPE: 0.0996]
+2023-12-19 13:45:28,790 - easytorch-training - INFO - Start validation.
+2023-12-19 13:46:02,033 - easytorch-training - INFO - Result <val>: [val_time: 33.24 (s), val_MAE: 14.0715, val_RMSE: 22.9016, val_MAPE: 0.1081]
+2023-12-19 13:46:34,523 - easytorch-training - INFO - Result <test>: [test_time: 32.49 (s), test_MAE: 14.0178, test_RMSE: 22.9594, test_MAPE: 0.1173]
+2023-12-19 13:46:34,546 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_015.pt saved
+2023-12-19 13:46:34,546 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 17:08:53
+2023-12-19 13:46:34,546 - easytorch-training - INFO - Epoch 16 / 200
+2023-12-19 13:50:44,727 - easytorch-training - INFO - Result <train>: [train_time: 250.18 (s), lr: 1.00e-03, train_MAE: 14.5374, train_RMSE: 23.4481, train_MAPE: 0.0994]
+2023-12-19 13:50:44,728 - easytorch-training - INFO - Start validation.
+2023-12-19 13:51:17,021 - easytorch-training - INFO - Result <val>: [val_time: 32.29 (s), val_MAE: 13.8384, val_RMSE: 22.6582, val_MAPE: 0.1038]
+2023-12-19 13:51:17,057 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 13:51:50,732 - easytorch-training - INFO - Result <test>: [test_time: 33.67 (s), test_MAE: 13.7982, test_RMSE: 22.6461, test_MAPE: 0.1113]
+2023-12-19 13:51:50,754 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_016.pt saved
+2023-12-19 13:51:50,754 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 16:23:48
+2023-12-19 13:51:50,754 - easytorch-training - INFO - Epoch 17 / 200
+2023-12-19 13:55:59,537 - easytorch-training - INFO - Result <train>: [train_time: 248.78 (s), lr: 1.00e-03, train_MAE: 14.5032, train_RMSE: 23.4181, train_MAPE: 0.0988]
+2023-12-19 13:55:59,538 - easytorch-training - INFO - Start validation.
+2023-12-19 13:56:32,500 - easytorch-training - INFO - Result <val>: [val_time: 32.96 (s), val_MAE: 13.7942, val_RMSE: 22.5445, val_MAPE: 0.1051]
+2023-12-19 13:56:32,535 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 13:57:05,279 - easytorch-training - INFO - Result <test>: [test_time: 32.74 (s), test_MAE: 13.8181, test_RMSE: 22.6528, test_MAPE: 0.1116]
+2023-12-19 13:57:05,301 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_017.pt saved
+2023-12-19 13:57:05,301 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 15:43:41
+2023-12-19 13:57:05,301 - easytorch-training - INFO - Epoch 18 / 200
+2023-12-19 14:01:15,109 - easytorch-training - INFO - Result <train>: [train_time: 249.81 (s), lr: 1.00e-03, train_MAE: 14.4452, train_RMSE: 23.3287, train_MAPE: 0.0983]
+2023-12-19 14:01:15,110 - easytorch-training - INFO - Start validation.
+2023-12-19 14:01:47,438 - easytorch-training - INFO - Result <val>: [val_time: 32.33 (s), val_MAE: 13.8829, val_RMSE: 22.6090, val_MAPE: 0.1058]
+2023-12-19 14:02:19,736 - easytorch-training - INFO - Result <test>: [test_time: 32.30 (s), test_MAE: 13.8596, test_RMSE: 22.5856, test_MAPE: 0.1079]
+2023-12-19 14:02:19,761 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_018.pt saved
+2023-12-19 14:02:19,761 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 15:08:01
+2023-12-19 14:02:19,761 - easytorch-training - INFO - Epoch 19 / 200
+2023-12-19 14:06:31,161 - easytorch-training - INFO - Result <train>: [train_time: 251.40 (s), lr: 1.00e-03, train_MAE: 14.4257, train_RMSE: 23.3074, train_MAPE: 0.0982]
+2023-12-19 14:06:31,162 - easytorch-training - INFO - Start validation.
+2023-12-19 14:07:03,383 - easytorch-training - INFO - Result <val>: [val_time: 32.22 (s), val_MAE: 13.6788, val_RMSE: 22.4241, val_MAPE: 0.1026]
+2023-12-19 14:07:03,409 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 14:07:35,638 - easytorch-training - INFO - Result <test>: [test_time: 32.23 (s), test_MAE: 13.6083, test_RMSE: 22.3560, test_MAPE: 0.1085]
+2023-12-19 14:07:35,659 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_019.pt saved
+2023-12-19 14:07:35,659 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 14:36:21
+2023-12-19 14:07:35,659 - easytorch-training - INFO - Epoch 20 / 200
+2023-12-19 14:11:47,500 - easytorch-training - INFO - Result <train>: [train_time: 251.84 (s), lr: 1.00e-03, train_MAE: 14.3626, train_RMSE: 23.2122, train_MAPE: 0.0980]
+2023-12-19 14:11:47,501 - easytorch-training - INFO - Start validation.
+2023-12-19 14:12:19,753 - easytorch-training - INFO - Result <val>: [val_time: 32.25 (s), val_MAE: 13.7973, val_RMSE: 22.4832, val_MAPE: 0.0993]
+2023-12-19 14:12:52,317 - easytorch-training - INFO - Result <test>: [test_time: 32.56 (s), test_MAE: 13.7989, test_RMSE: 22.4774, test_MAPE: 0.1047]
+2023-12-19 14:12:52,337 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_020.pt saved
+2023-12-19 14:12:52,345 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 14:07:59
+2023-12-19 14:12:52,345 - easytorch-training - INFO - Epoch 21 / 200
+2023-12-19 14:17:02,652 - easytorch-training - INFO - Result <train>: [train_time: 250.31 (s), lr: 1.00e-03, train_MAE: 14.3463, train_RMSE: 23.1845, train_MAPE: 0.0975]
+2023-12-19 14:17:02,653 - easytorch-training - INFO - Start validation.
+2023-12-19 14:17:35,313 - easytorch-training - INFO - Result <val>: [val_time: 32.66 (s), val_MAE: 13.7437, val_RMSE: 22.4506, val_MAPE: 0.1021]
+2023-12-19 14:18:07,042 - easytorch-training - INFO - Result <test>: [test_time: 31.73 (s), test_MAE: 13.6963, test_RMSE: 22.4304, test_MAPE: 0.1077]
+2023-12-19 14:18:07,071 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_021.pt saved
+2023-12-19 14:18:07,071 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 13:42:00
+2023-12-19 14:18:07,071 - easytorch-training - INFO - Epoch 22 / 200
+2023-12-19 14:22:16,225 - easytorch-training - INFO - Result <train>: [train_time: 249.15 (s), lr: 1.00e-03, train_MAE: 14.3086, train_RMSE: 23.1343, train_MAPE: 0.0972]
+2023-12-19 14:22:16,226 - easytorch-training - INFO - Start validation.
+2023-12-19 14:22:48,766 - easytorch-training - INFO - Result <val>: [val_time: 32.54 (s), val_MAE: 13.7131, val_RMSE: 22.3706, val_MAPE: 0.1044]
+2023-12-19 14:23:22,281 - easytorch-training - INFO - Result <test>: [test_time: 33.51 (s), test_MAE: 13.6903, test_RMSE: 22.3767, test_MAPE: 0.1054]
+2023-12-19 14:23:22,304 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_022.pt saved
+2023-12-19 14:23:22,304 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 13:18:28
+2023-12-19 14:23:22,304 - easytorch-training - INFO - Epoch 23 / 200
+2023-12-19 14:27:32,558 - easytorch-training - INFO - Result <train>: [train_time: 250.25 (s), lr: 1.00e-03, train_MAE: 14.2783, train_RMSE: 23.0798, train_MAPE: 0.0969]
+2023-12-19 14:27:32,559 - easytorch-training - INFO - Start validation.
+2023-12-19 14:28:05,596 - easytorch-training - INFO - Result <val>: [val_time: 33.04 (s), val_MAE: 13.7748, val_RMSE: 22.5490, val_MAPE: 0.0976]
+2023-12-19 14:28:37,815 - easytorch-training - INFO - Result <test>: [test_time: 32.22 (s), test_MAE: 13.6986, test_RMSE: 22.4152, test_MAPE: 0.0993]
+2023-12-19 14:28:37,837 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_023.pt saved
+2023-12-19 14:28:37,837 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 12:57:01
+2023-12-19 14:28:37,837 - easytorch-training - INFO - Epoch 24 / 200
+2023-12-19 14:32:48,568 - easytorch-training - INFO - Result <train>: [train_time: 250.73 (s), lr: 1.00e-03, train_MAE: 14.2448, train_RMSE: 23.0412, train_MAPE: 0.0967]
+2023-12-19 14:32:48,569 - easytorch-training - INFO - Start validation.
+2023-12-19 14:33:21,137 - easytorch-training - INFO - Result <val>: [val_time: 32.57 (s), val_MAE: 13.6761, val_RMSE: 22.3117, val_MAPE: 0.1032]
+2023-12-19 14:33:21,168 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 14:33:53,239 - easytorch-training - INFO - Result <test>: [test_time: 32.07 (s), test_MAE: 13.6600, test_RMSE: 22.3314, test_MAPE: 0.1070]
+2023-12-19 14:33:53,264 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_024.pt saved
+2023-12-19 14:33:53,265 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 12:37:21
+2023-12-19 14:33:53,265 - easytorch-training - INFO - Epoch 25 / 200
+2023-12-19 14:38:05,184 - easytorch-training - INFO - Result <train>: [train_time: 251.92 (s), lr: 1.00e-03, train_MAE: 14.2197, train_RMSE: 23.0128, train_MAPE: 0.0967]
+2023-12-19 14:38:05,185 - easytorch-training - INFO - Start validation.
+2023-12-19 14:38:37,513 - easytorch-training - INFO - Result <val>: [val_time: 32.33 (s), val_MAE: 13.6858, val_RMSE: 22.3690, val_MAPE: 0.1011]
+2023-12-19 14:39:09,779 - easytorch-training - INFO - Result <test>: [test_time: 32.27 (s), test_MAE: 13.7022, test_RMSE: 22.3835, test_MAPE: 0.1040]
+2023-12-19 14:39:09,800 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_025.pt saved
+2023-12-19 14:39:09,801 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 12:19:24
+2023-12-19 14:39:09,801 - easytorch-training - INFO - Epoch 26 / 200
+2023-12-19 14:43:21,266 - easytorch-training - INFO - Result <train>: [train_time: 251.47 (s), lr: 1.00e-03, train_MAE: 14.1971, train_RMSE: 22.9698, train_MAPE: 0.0964]
+2023-12-19 14:43:21,267 - easytorch-training - INFO - Start validation.
+2023-12-19 14:43:53,101 - easytorch-training - INFO - Result <val>: [val_time: 31.83 (s), val_MAE: 13.5895, val_RMSE: 22.3710, val_MAPE: 0.0957]
+2023-12-19 14:43:53,134 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 14:44:25,307 - easytorch-training - INFO - Result <test>: [test_time: 32.17 (s), test_MAE: 13.5759, test_RMSE: 22.3453, test_MAPE: 0.1003]
+2023-12-19 14:44:25,328 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_026.pt saved
+2023-12-19 14:44:25,329 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 12:02:42
+2023-12-19 14:44:25,329 - easytorch-training - INFO - Epoch 27 / 200
+2023-12-19 14:48:35,122 - easytorch-training - INFO - Result <train>: [train_time: 249.79 (s), lr: 1.00e-03, train_MAE: 14.1732, train_RMSE: 22.9342, train_MAPE: 0.0962]
+2023-12-19 14:48:35,123 - easytorch-training - INFO - Start validation.
+2023-12-19 14:49:08,391 - easytorch-training - INFO - Result <val>: [val_time: 33.27 (s), val_MAE: 13.6395, val_RMSE: 22.2966, val_MAPE: 0.0974]
+2023-12-19 14:49:41,602 - easytorch-training - INFO - Result <test>: [test_time: 33.21 (s), test_MAE: 13.6234, test_RMSE: 22.2868, test_MAPE: 0.1001]
+2023-12-19 14:49:41,627 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_027.pt saved
+2023-12-19 14:49:41,627 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:47:20
+2023-12-19 14:49:41,627 - easytorch-training - INFO - Epoch 28 / 200
+2023-12-19 14:53:50,691 - easytorch-training - INFO - Result <train>: [train_time: 249.06 (s), lr: 1.00e-03, train_MAE: 14.1380, train_RMSE: 22.8842, train_MAPE: 0.0959]
+2023-12-19 14:53:50,692 - easytorch-training - INFO - Start validation.
+2023-12-19 14:54:25,104 - easytorch-training - INFO - Result <val>: [val_time: 34.41 (s), val_MAE: 13.7154, val_RMSE: 22.5370, val_MAPE: 0.0957]
+2023-12-19 14:54:58,000 - easytorch-training - INFO - Result <test>: [test_time: 32.89 (s), test_MAE: 13.7231, test_RMSE: 22.4834, test_MAPE: 0.1003]
+2023-12-19 14:54:58,023 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_028.pt saved
+2023-12-19 14:54:58,023 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:33:04
+2023-12-19 14:54:58,023 - easytorch-training - INFO - Epoch 29 / 200
+2023-12-19 14:59:08,423 - easytorch-training - INFO - Result <train>: [train_time: 250.40 (s), lr: 1.00e-03, train_MAE: 14.1454, train_RMSE: 22.8934, train_MAPE: 0.0959]
+2023-12-19 14:59:08,424 - easytorch-training - INFO - Start validation.
+2023-12-19 14:59:40,670 - easytorch-training - INFO - Result <val>: [val_time: 32.25 (s), val_MAE: 13.5655, val_RMSE: 22.2526, val_MAPE: 0.0954]
+2023-12-19 14:59:40,698 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 15:00:13,732 - easytorch-training - INFO - Result <test>: [test_time: 33.03 (s), test_MAE: 13.5747, test_RMSE: 22.2802, test_MAPE: 0.0998]
+2023-12-19 15:00:13,756 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_029.pt saved
+2023-12-19 15:00:13,756 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:19:43
+2023-12-19 15:00:13,756 - easytorch-training - INFO - Epoch 30 / 200
+2023-12-19 15:04:24,523 - easytorch-training - INFO - Result <train>: [train_time: 250.77 (s), lr: 1.00e-03, train_MAE: 14.1181, train_RMSE: 22.8615, train_MAPE: 0.0957]
+2023-12-19 15:04:24,524 - easytorch-training - INFO - Start validation.
+2023-12-19 15:04:57,002 - easytorch-training - INFO - Result <val>: [val_time: 32.48 (s), val_MAE: 13.5584, val_RMSE: 22.2626, val_MAPE: 0.0957]
+2023-12-19 15:04:57,033 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 15:05:29,662 - easytorch-training - INFO - Result <test>: [test_time: 32.63 (s), test_MAE: 13.5261, test_RMSE: 22.1939, test_MAPE: 0.1002]
+2023-12-19 15:05:29,683 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_030.pt saved
+2023-12-19 15:05:29,690 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:07:16
+2023-12-19 15:05:29,690 - easytorch-training - INFO - Epoch 31 / 200
+2023-12-19 15:09:40,024 - easytorch-training - INFO - Result <train>: [train_time: 250.33 (s), lr: 1.00e-03, train_MAE: 14.0870, train_RMSE: 22.8145, train_MAPE: 0.0953]
+2023-12-19 15:09:40,025 - easytorch-training - INFO - Start validation.
+2023-12-19 15:10:12,411 - easytorch-training - INFO - Result <val>: [val_time: 32.39 (s), val_MAE: 13.4939, val_RMSE: 22.1550, val_MAPE: 0.0997]
+2023-12-19 15:10:12,446 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 15:10:45,848 - easytorch-training - INFO - Result <test>: [test_time: 33.40 (s), test_MAE: 13.5164, test_RMSE: 22.1935, test_MAPE: 0.1030]
+2023-12-19 15:10:45,873 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_031.pt saved
+2023-12-19 15:10:45,873 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:55:40
+2023-12-19 15:10:45,873 - easytorch-training - INFO - Epoch 32 / 200
+2023-12-19 15:14:55,959 - easytorch-training - INFO - Result <train>: [train_time: 250.09 (s), lr: 1.00e-03, train_MAE: 14.0752, train_RMSE: 22.8009, train_MAPE: 0.0953]
+2023-12-19 15:14:55,960 - easytorch-training - INFO - Start validation.
+2023-12-19 15:15:28,067 - easytorch-training - INFO - Result <val>: [val_time: 32.11 (s), val_MAE: 13.5660, val_RMSE: 22.2972, val_MAPE: 0.0991]
+2023-12-19 15:16:00,110 - easytorch-training - INFO - Result <test>: [test_time: 32.04 (s), test_MAE: 13.5080, test_RMSE: 22.1821, test_MAPE: 0.1008]
+2023-12-19 15:16:00,131 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_032.pt saved
+2023-12-19 15:16:00,131 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:44:35
+2023-12-19 15:16:00,132 - easytorch-training - INFO - Epoch 33 / 200
+2023-12-19 15:20:10,676 - easytorch-training - INFO - Result <train>: [train_time: 250.54 (s), lr: 1.00e-03, train_MAE: 14.0448, train_RMSE: 22.7548, train_MAPE: 0.0950]
+2023-12-19 15:20:10,677 - easytorch-training - INFO - Start validation.
+2023-12-19 15:20:43,907 - easytorch-training - INFO - Result <val>: [val_time: 33.23 (s), val_MAE: 13.4486, val_RMSE: 22.1814, val_MAPE: 0.0960]
+2023-12-19 15:20:43,939 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 15:21:15,959 - easytorch-training - INFO - Result <test>: [test_time: 32.02 (s), test_MAE: 13.4714, test_RMSE: 22.1952, test_MAPE: 0.0999]
+2023-12-19 15:21:15,982 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_033.pt saved
+2023-12-19 15:21:15,982 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:34:20
+2023-12-19 15:21:15,982 - easytorch-training - INFO - Epoch 34 / 200
+2023-12-19 15:25:26,218 - easytorch-training - INFO - Result <train>: [train_time: 250.24 (s), lr: 1.00e-03, train_MAE: 14.0153, train_RMSE: 22.7101, train_MAPE: 0.0947]
+2023-12-19 15:25:26,219 - easytorch-training - INFO - Start validation.
+2023-12-19 15:25:59,903 - easytorch-training - INFO - Result <val>: [val_time: 33.68 (s), val_MAE: 13.5519, val_RMSE: 22.3098, val_MAPE: 0.0952]
+2023-12-19 15:26:32,805 - easytorch-training - INFO - Result <test>: [test_time: 32.90 (s), test_MAE: 13.6069, test_RMSE: 22.4000, test_MAPE: 0.1000]
+2023-12-19 15:26:32,834 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_034.pt saved
+2023-12-19 15:26:32,834 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:24:46
+2023-12-19 15:26:32,834 - easytorch-training - INFO - Epoch 35 / 200
+2023-12-19 15:30:43,624 - easytorch-training - INFO - Result <train>: [train_time: 250.79 (s), lr: 1.00e-03, train_MAE: 14.0148, train_RMSE: 22.7167, train_MAPE: 0.0948]
+2023-12-19 15:30:43,625 - easytorch-training - INFO - Start validation.
+2023-12-19 15:31:15,857 - easytorch-training - INFO - Result <val>: [val_time: 32.23 (s), val_MAE: 13.4211, val_RMSE: 22.2485, val_MAPE: 0.0929]
+2023-12-19 15:31:15,889 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 15:31:48,649 - easytorch-training - INFO - Result <test>: [test_time: 32.76 (s), test_MAE: 13.4688, test_RMSE: 22.2339, test_MAPE: 0.0962]
+2023-12-19 15:31:48,674 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_035.pt saved
+2023-12-19 15:31:48,675 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:15:40
+2023-12-19 15:31:48,675 - easytorch-training - INFO - Epoch 36 / 200
+2023-12-19 15:36:00,713 - easytorch-training - INFO - Result <train>: [train_time: 252.04 (s), lr: 1.00e-03, train_MAE: 14.0236, train_RMSE: 22.7336, train_MAPE: 0.0947]
+2023-12-19 15:36:00,714 - easytorch-training - INFO - Start validation.
+2023-12-19 15:36:34,568 - easytorch-training - INFO - Result <val>: [val_time: 33.85 (s), val_MAE: 13.4702, val_RMSE: 22.2128, val_MAPE: 0.0942]
+2023-12-19 15:37:06,638 - easytorch-training - INFO - Result <test>: [test_time: 32.07 (s), test_MAE: 13.4765, test_RMSE: 22.1631, test_MAPE: 0.0979]
+2023-12-19 15:37:06,661 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_036.pt saved
+2023-12-19 15:37:06,661 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:07:16
+2023-12-19 15:37:06,661 - easytorch-training - INFO - Epoch 37 / 200
+2023-12-19 15:41:19,062 - easytorch-training - INFO - Result <train>: [train_time: 252.40 (s), lr: 1.00e-03, train_MAE: 13.9875, train_RMSE: 22.6840, train_MAPE: 0.0947]
+2023-12-19 15:41:19,063 - easytorch-training - INFO - Start validation.
+2023-12-19 15:41:51,873 - easytorch-training - INFO - Result <val>: [val_time: 32.81 (s), val_MAE: 13.4890, val_RMSE: 22.2409, val_MAPE: 0.0982]
+2023-12-19 15:42:24,458 - easytorch-training - INFO - Result <test>: [test_time: 32.58 (s), test_MAE: 13.5230, test_RMSE: 22.2609, test_MAPE: 0.1017]
+2023-12-19 15:42:24,482 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_037.pt saved
+2023-12-19 15:42:24,482 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:59:19
+2023-12-19 15:42:24,482 - easytorch-training - INFO - Epoch 38 / 200
+2023-12-19 15:46:37,831 - easytorch-training - INFO - Result <train>: [train_time: 253.35 (s), lr: 1.00e-03, train_MAE: 13.9576, train_RMSE: 22.6369, train_MAPE: 0.0942]
+2023-12-19 15:46:37,832 - easytorch-training - INFO - Start validation.
+2023-12-19 15:47:11,023 - easytorch-training - INFO - Result <val>: [val_time: 33.19 (s), val_MAE: 13.5319, val_RMSE: 22.2604, val_MAPE: 0.0950]
+2023-12-19 15:47:44,348 - easytorch-training - INFO - Result <test>: [test_time: 33.32 (s), test_MAE: 13.5194, test_RMSE: 22.1788, test_MAPE: 0.0982]
+2023-12-19 15:47:44,376 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_038.pt saved
+2023-12-19 15:47:44,377 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:51:57
+2023-12-19 15:47:44,377 - easytorch-training - INFO - Epoch 39 / 200
+2023-12-19 15:51:56,721 - easytorch-training - INFO - Result <train>: [train_time: 252.34 (s), lr: 1.00e-03, train_MAE: 13.9482, train_RMSE: 22.6349, train_MAPE: 0.0942]
+2023-12-19 15:51:56,722 - easytorch-training - INFO - Start validation.
+2023-12-19 15:52:29,142 - easytorch-training - INFO - Result <val>: [val_time: 32.42 (s), val_MAE: 13.4575, val_RMSE: 22.1700, val_MAPE: 0.0925]
+2023-12-19 15:53:02,342 - easytorch-training - INFO - Result <test>: [test_time: 33.20 (s), test_MAE: 13.4275, test_RMSE: 22.1591, test_MAPE: 0.0963]
+2023-12-19 15:53:02,372 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_039.pt saved
+2023-12-19 15:53:02,372 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:44:49
+2023-12-19 15:53:02,372 - easytorch-training - INFO - Epoch 40 / 200
+2023-12-19 15:57:14,561 - easytorch-training - INFO - Result <train>: [train_time: 252.19 (s), lr: 1.00e-03, train_MAE: 13.9459, train_RMSE: 22.6192, train_MAPE: 0.0942]
+2023-12-19 15:57:14,562 - easytorch-training - INFO - Start validation.
+2023-12-19 15:57:47,808 - easytorch-training - INFO - Result <val>: [val_time: 33.25 (s), val_MAE: 13.5935, val_RMSE: 22.2850, val_MAPE: 0.1003]
+2023-12-19 15:58:20,403 - easytorch-training - INFO - Result <test>: [test_time: 32.59 (s), test_MAE: 13.5781, test_RMSE: 22.2982, test_MAPE: 0.1019]
+2023-12-19 15:58:20,424 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_040.pt saved
+2023-12-19 15:58:20,431 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:38:02
+2023-12-19 15:58:20,431 - easytorch-training - INFO - Epoch 41 / 200
+2023-12-19 16:02:33,454 - easytorch-training - INFO - Result <train>: [train_time: 253.02 (s), lr: 1.00e-03, train_MAE: 13.9387, train_RMSE: 22.6074, train_MAPE: 0.0942]
+2023-12-19 16:02:33,455 - easytorch-training - INFO - Start validation.
+2023-12-19 16:03:06,280 - easytorch-training - INFO - Result <val>: [val_time: 32.82 (s), val_MAE: 13.5736, val_RMSE: 22.3520, val_MAPE: 0.0991]
+2023-12-19 16:03:39,701 - easytorch-training - INFO - Result <test>: [test_time: 33.42 (s), test_MAE: 13.5899, test_RMSE: 22.3970, test_MAPE: 0.1008]
+2023-12-19 16:03:39,730 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_041.pt saved
+2023-12-19 16:03:39,730 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:31:41
+2023-12-19 16:03:39,730 - easytorch-training - INFO - Epoch 42 / 200
+2023-12-19 16:07:51,582 - easytorch-training - INFO - Result <train>: [train_time: 251.85 (s), lr: 1.00e-03, train_MAE: 13.9083, train_RMSE: 22.5747, train_MAPE: 0.0939]
+2023-12-19 16:07:51,583 - easytorch-training - INFO - Start validation.
+2023-12-19 16:08:24,073 - easytorch-training - INFO - Result <val>: [val_time: 32.49 (s), val_MAE: 13.4428, val_RMSE: 22.1415, val_MAPE: 0.0937]
+2023-12-19 16:08:56,836 - easytorch-training - INFO - Result <test>: [test_time: 32.76 (s), test_MAE: 13.4648, test_RMSE: 22.1858, test_MAPE: 0.0985]
+2023-12-19 16:08:56,857 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_042.pt saved
+2023-12-19 16:08:56,857 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:25:28
+2023-12-19 16:08:56,857 - easytorch-training - INFO - Epoch 43 / 200
+2023-12-19 16:13:07,978 - easytorch-training - INFO - Result <train>: [train_time: 251.12 (s), lr: 1.00e-03, train_MAE: 13.8992, train_RMSE: 22.5547, train_MAPE: 0.0940]
+2023-12-19 16:13:07,979 - easytorch-training - INFO - Start validation.
+2023-12-19 16:13:40,762 - easytorch-training - INFO - Result <val>: [val_time: 32.78 (s), val_MAE: 13.3709, val_RMSE: 22.1135, val_MAPE: 0.0937]
+2023-12-19 16:13:40,795 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 16:14:13,926 - easytorch-training - INFO - Result <test>: [test_time: 33.13 (s), test_MAE: 13.3834, test_RMSE: 22.1362, test_MAPE: 0.0958]
+2023-12-19 16:14:13,957 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_043.pt saved
+2023-12-19 16:14:13,957 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:19:32
+2023-12-19 16:14:13,957 - easytorch-training - INFO - Epoch 44 / 200
+2023-12-19 16:21:31,616 - easytorch-training - INFO - Result <train>: [train_time: 437.66 (s), lr: 1.00e-03, train_MAE: 13.9170, train_RMSE: 22.5839, train_MAPE: 0.0939]
+2023-12-19 16:21:31,617 - easytorch-training - INFO - Start validation.
+2023-12-19 16:22:41,712 - easytorch-training - INFO - Result <val>: [val_time: 70.09 (s), val_MAE: 13.4478, val_RMSE: 22.2472, val_MAPE: 0.0920]
+2023-12-19 16:23:51,595 - easytorch-training - INFO - Result <test>: [test_time: 69.88 (s), test_MAE: 13.4920, test_RMSE: 22.3044, test_MAPE: 0.0969]
+2023-12-19 16:23:51,616 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_044.pt saved
+2023-12-19 16:23:51,616 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:33:37
+2023-12-19 16:23:51,617 - easytorch-training - INFO - Epoch 45 / 200
+2023-12-19 16:32:06,171 - easytorch-training - INFO - Result <train>: [train_time: 494.55 (s), lr: 1.00e-03, train_MAE: 13.8884, train_RMSE: 22.5303, train_MAPE: 0.0937]
+2023-12-19 16:32:06,172 - easytorch-training - INFO - Start validation.
+2023-12-19 16:33:15,536 - easytorch-training - INFO - Result <val>: [val_time: 69.36 (s), val_MAE: 13.5916, val_RMSE: 22.3223, val_MAPE: 0.0956]
+2023-12-19 16:34:25,453 - easytorch-training - INFO - Result <test>: [test_time: 69.92 (s), test_MAE: 13.6101, test_RMSE: 22.3162, test_MAPE: 0.1002]
+2023-12-19 16:34:25,476 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_045.pt saved
+2023-12-19 16:34:25,476 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:51:14
+2023-12-19 16:34:25,476 - easytorch-training - INFO - Epoch 46 / 200
+2023-12-19 16:42:41,318 - easytorch-training - INFO - Result <train>: [train_time: 495.84 (s), lr: 1.00e-03, train_MAE: 13.8851, train_RMSE: 22.5453, train_MAPE: 0.0936]
+2023-12-19 16:42:41,319 - easytorch-training - INFO - Start validation.
+2023-12-19 16:43:54,595 - easytorch-training - INFO - Result <val>: [val_time: 73.28 (s), val_MAE: 13.5045, val_RMSE: 22.3445, val_MAPE: 0.0966]
+2023-12-19 16:44:38,693 - easytorch-training - INFO - Result <test>: [test_time: 44.10 (s), test_MAE: 13.5090, test_RMSE: 22.4051, test_MAPE: 0.0988]
+2023-12-19 16:44:38,723 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_046.pt saved
+2023-12-19 16:44:38,723 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:06:35
+2023-12-19 16:44:38,723 - easytorch-training - INFO - Epoch 47 / 200
+2023-12-19 16:48:52,274 - easytorch-training - INFO - Result <train>: [train_time: 253.55 (s), lr: 1.00e-03, train_MAE: 13.8752, train_RMSE: 22.5241, train_MAPE: 0.0937]
+2023-12-19 16:48:52,275 - easytorch-training - INFO - Start validation.
+2023-12-19 16:49:24,871 - easytorch-training - INFO - Result <val>: [val_time: 32.60 (s), val_MAE: 13.3946, val_RMSE: 22.0761, val_MAPE: 0.0968]
+2023-12-19 16:49:58,181 - easytorch-training - INFO - Result <test>: [test_time: 33.31 (s), test_MAE: 13.4451, test_RMSE: 22.1416, test_MAPE: 0.0992]
+2023-12-19 16:49:58,202 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_047.pt saved
+2023-12-19 16:49:58,202 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:00:27
+2023-12-19 16:49:58,202 - easytorch-training - INFO - Epoch 48 / 200
+2023-12-19 16:57:09,762 - easytorch-training - INFO - Result <train>: [train_time: 431.56 (s), lr: 1.00e-03, train_MAE: 13.8479, train_RMSE: 22.4715, train_MAPE: 0.0935]
+2023-12-19 16:57:09,763 - easytorch-training - INFO - Start validation.
+2023-12-19 16:58:19,739 - easytorch-training - INFO - Result <val>: [val_time: 69.98 (s), val_MAE: 13.4132, val_RMSE: 22.1113, val_MAPE: 0.0949]
+2023-12-19 16:59:30,679 - easytorch-training - INFO - Result <test>: [test_time: 70.94 (s), test_MAE: 13.4395, test_RMSE: 22.1722, test_MAPE: 0.0971]
+2023-12-19 16:59:30,703 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_048.pt saved
+2023-12-19 16:59:30,703 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:12:09
+2023-12-19 16:59:30,703 - easytorch-training - INFO - Epoch 49 / 200
+2023-12-19 17:07:48,141 - easytorch-training - INFO - Result <train>: [train_time: 497.44 (s), lr: 1.00e-03, train_MAE: 13.8466, train_RMSE: 22.4749, train_MAPE: 0.0933]
+2023-12-19 17:07:48,142 - easytorch-training - INFO - Start validation.
+2023-12-19 17:08:57,659 - easytorch-training - INFO - Result <val>: [val_time: 69.52 (s), val_MAE: 13.3650, val_RMSE: 22.0961, val_MAPE: 0.0934]
+2023-12-19 17:08:57,691 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 17:10:07,050 - easytorch-training - INFO - Result <test>: [test_time: 69.36 (s), test_MAE: 13.3883, test_RMSE: 22.1573, test_MAPE: 0.0964]
+2023-12-19 17:10:07,070 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_049.pt saved
+2023-12-19 17:10:07,071 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:27:42
+2023-12-19 17:10:07,071 - easytorch-training - INFO - Epoch 50 / 200
+2023-12-19 17:18:23,878 - easytorch-training - INFO - Result <train>: [train_time: 496.81 (s), lr: 1.00e-03, train_MAE: 13.8472, train_RMSE: 22.4738, train_MAPE: 0.0934]
+2023-12-19 17:18:23,879 - easytorch-training - INFO - Start validation.
+2023-12-19 17:19:34,701 - easytorch-training - INFO - Result <val>: [val_time: 70.82 (s), val_MAE: 13.3808, val_RMSE: 22.1118, val_MAPE: 0.0937]
+2023-12-19 17:20:44,080 - easytorch-training - INFO - Result <test>: [test_time: 69.38 (s), test_MAE: 13.4136, test_RMSE: 22.1372, test_MAPE: 0.0973]
+2023-12-19 17:20:44,105 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_050.pt saved
+2023-12-19 17:20:44,112 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:42:41
+2023-12-19 17:20:44,112 - easytorch-training - INFO - Epoch 51 / 200
+2023-12-19 17:28:59,082 - easytorch-training - INFO - Result <train>: [train_time: 494.97 (s), lr: 5.00e-04, train_MAE: 13.6560, train_RMSE: 22.2360, train_MAPE: 0.0913]
+2023-12-19 17:28:59,083 - easytorch-training - INFO - Start validation.
+2023-12-19 17:30:08,281 - easytorch-training - INFO - Result <val>: [val_time: 69.20 (s), val_MAE: 13.2351, val_RMSE: 22.0118, val_MAPE: 0.0928]
+2023-12-19 17:30:08,308 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 17:31:18,274 - easytorch-training - INFO - Result <test>: [test_time: 69.97 (s), test_MAE: 13.2754, test_RMSE: 22.0994, test_MAPE: 0.0957]
+2023-12-19 17:31:18,297 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_051.pt saved
+2023-12-19 17:31:18,298 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:56:54
+2023-12-19 17:31:18,298 - easytorch-training - INFO - Epoch 52 / 200
+2023-12-19 17:39:35,893 - easytorch-training - INFO - Result <train>: [train_time: 497.60 (s), lr: 5.00e-04, train_MAE: 13.6554, train_RMSE: 22.2214, train_MAPE: 0.0912]
+2023-12-19 17:39:35,894 - easytorch-training - INFO - Start validation.
+2023-12-19 17:40:54,091 - easytorch-training - INFO - Result <val>: [val_time: 78.20 (s), val_MAE: 13.2823, val_RMSE: 22.0312, val_MAPE: 0.0922]
+2023-12-19 17:42:07,002 - easytorch-training - INFO - Result <test>: [test_time: 72.91 (s), test_MAE: 13.3246, test_RMSE: 22.1019, test_MAPE: 0.0947]
+2023-12-19 17:42:07,029 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_052.pt saved
+2023-12-19 17:42:07,029 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:11:30
+2023-12-19 17:42:07,029 - easytorch-training - INFO - Epoch 53 / 200
+2023-12-19 17:50:48,311 - easytorch-training - INFO - Result <train>: [train_time: 521.28 (s), lr: 5.00e-04, train_MAE: 13.6407, train_RMSE: 22.2015, train_MAPE: 0.0911]
+2023-12-19 17:50:48,312 - easytorch-training - INFO - Start validation.
+2023-12-19 17:51:58,993 - easytorch-training - INFO - Result <val>: [val_time: 70.68 (s), val_MAE: 13.2638, val_RMSE: 22.0537, val_MAPE: 0.0924]
+2023-12-19 17:53:09,819 - easytorch-training - INFO - Result <test>: [test_time: 70.82 (s), test_MAE: 13.2623, test_RMSE: 22.0996, test_MAPE: 0.0958]
+2023-12-19 17:53:09,841 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_053.pt saved
+2023-12-19 17:53:09,842 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:26:25
+2023-12-19 17:53:09,842 - easytorch-training - INFO - Epoch 54 / 200
+2023-12-19 18:01:08,074 - easytorch-training - INFO - Result <train>: [train_time: 478.23 (s), lr: 5.00e-04, train_MAE: 13.6289, train_RMSE: 22.1758, train_MAPE: 0.0909]
+2023-12-19 18:01:08,075 - easytorch-training - INFO - Start validation.
+2023-12-19 18:01:41,409 - easytorch-training - INFO - Result <val>: [val_time: 33.33 (s), val_MAE: 13.2077, val_RMSE: 21.9803, val_MAPE: 0.0935]
+2023-12-19 18:01:41,445 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 18:02:14,738 - easytorch-training - INFO - Result <test>: [test_time: 33.29 (s), test_MAE: 13.2823, test_RMSE: 22.0988, test_MAPE: 0.0965]
+2023-12-19 18:02:14,763 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_054.pt saved
+2023-12-19 18:02:14,763 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:33:31
+2023-12-19 18:02:14,763 - easytorch-training - INFO - Epoch 55 / 200
+2023-12-19 18:06:27,178 - easytorch-training - INFO - Result <train>: [train_time: 252.41 (s), lr: 5.00e-04, train_MAE: 13.6027, train_RMSE: 22.1359, train_MAPE: 0.0910]
+2023-12-19 18:06:27,179 - easytorch-training - INFO - Start validation.
+2023-12-19 18:07:00,763 - easytorch-training - INFO - Result <val>: [val_time: 33.58 (s), val_MAE: 13.2944, val_RMSE: 22.1033, val_MAPE: 0.0906]
+2023-12-19 18:07:33,745 - easytorch-training - INFO - Result <test>: [test_time: 32.98 (s), test_MAE: 13.3576, test_RMSE: 22.2104, test_MAPE: 0.0947]
+2023-12-19 18:07:33,769 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_055.pt saved
+2023-12-19 18:07:33,769 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:26:40
+2023-12-19 18:07:33,769 - easytorch-training - INFO - Epoch 56 / 200
+2023-12-19 18:11:46,793 - easytorch-training - INFO - Result <train>: [train_time: 253.02 (s), lr: 5.00e-04, train_MAE: 13.6164, train_RMSE: 22.1607, train_MAPE: 0.0908]
+2023-12-19 18:11:46,794 - easytorch-training - INFO - Start validation.
+2023-12-19 18:12:19,873 - easytorch-training - INFO - Result <val>: [val_time: 33.08 (s), val_MAE: 13.2351, val_RMSE: 22.0333, val_MAPE: 0.0917]
+2023-12-19 18:12:53,652 - easytorch-training - INFO - Result <test>: [test_time: 33.78 (s), test_MAE: 13.2484, test_RMSE: 22.0499, test_MAPE: 0.0955]
+2023-12-19 18:12:53,676 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_056.pt saved
+2023-12-19 18:12:53,676 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:20:07
+2023-12-19 18:12:53,676 - easytorch-training - INFO - Epoch 57 / 200
+2023-12-19 18:17:06,026 - easytorch-training - INFO - Result <train>: [train_time: 252.35 (s), lr: 5.00e-04, train_MAE: 13.6170, train_RMSE: 22.1596, train_MAPE: 0.0909]
+2023-12-19 18:17:06,027 - easytorch-training - INFO - Start validation.
+2023-12-19 18:17:39,651 - easytorch-training - INFO - Result <val>: [val_time: 33.62 (s), val_MAE: 13.2624, val_RMSE: 21.9948, val_MAPE: 0.0921]
+2023-12-19 18:18:12,817 - easytorch-training - INFO - Result <test>: [test_time: 33.17 (s), test_MAE: 13.2617, test_RMSE: 22.0689, test_MAPE: 0.0954]
+2023-12-19 18:18:12,839 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_057.pt saved
+2023-12-19 18:18:12,839 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:13:45
+2023-12-19 18:18:12,839 - easytorch-training - INFO - Epoch 58 / 200
+2023-12-19 18:22:24,417 - easytorch-training - INFO - Result <train>: [train_time: 251.58 (s), lr: 5.00e-04, train_MAE: 13.6160, train_RMSE: 22.1592, train_MAPE: 0.0908]
+2023-12-19 18:22:24,419 - easytorch-training - INFO - Start validation.
+2023-12-19 18:22:57,968 - easytorch-training - INFO - Result <val>: [val_time: 33.55 (s), val_MAE: 13.2567, val_RMSE: 22.0376, val_MAPE: 0.0921]
+2023-12-19 18:23:30,848 - easytorch-training - INFO - Result <test>: [test_time: 32.88 (s), test_MAE: 13.3388, test_RMSE: 22.1671, test_MAPE: 0.0964]
+2023-12-19 18:23:30,874 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_058.pt saved
+2023-12-19 18:23:30,874 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:07:33
+2023-12-19 18:23:30,874 - easytorch-training - INFO - Epoch 59 / 200
+2023-12-19 18:27:43,392 - easytorch-training - INFO - Result <train>: [train_time: 252.52 (s), lr: 5.00e-04, train_MAE: 13.6074, train_RMSE: 22.1487, train_MAPE: 0.0909]
+2023-12-19 18:27:43,393 - easytorch-training - INFO - Start validation.
+2023-12-19 18:28:17,412 - easytorch-training - INFO - Result <val>: [val_time: 34.02 (s), val_MAE: 13.2126, val_RMSE: 22.0543, val_MAPE: 0.0900]
+2023-12-19 18:28:50,998 - easytorch-training - INFO - Result <test>: [test_time: 33.58 (s), test_MAE: 13.2644, test_RMSE: 22.1413, test_MAPE: 0.0934]
+2023-12-19 18:28:51,019 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_059.pt saved
+2023-12-19 18:28:51,019 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 11:01:40
+2023-12-19 18:28:51,019 - easytorch-training - INFO - Epoch 60 / 200
+2023-12-19 18:33:03,483 - easytorch-training - INFO - Result <train>: [train_time: 252.46 (s), lr: 5.00e-04, train_MAE: 13.6065, train_RMSE: 22.1426, train_MAPE: 0.0909]
+2023-12-19 18:33:03,484 - easytorch-training - INFO - Start validation.
+2023-12-19 18:33:36,946 - easytorch-training - INFO - Result <val>: [val_time: 33.46 (s), val_MAE: 13.3201, val_RMSE: 22.1255, val_MAPE: 0.0921]
+2023-12-19 18:34:10,128 - easytorch-training - INFO - Result <test>: [test_time: 33.18 (s), test_MAE: 13.3653, test_RMSE: 22.2169, test_MAPE: 0.0951]
+2023-12-19 18:34:10,150 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_060.pt saved
+2023-12-19 18:34:10,157 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:55:55
+2023-12-19 18:34:10,157 - easytorch-training - INFO - Epoch 61 / 200
+2023-12-19 18:38:22,270 - easytorch-training - INFO - Result <train>: [train_time: 252.11 (s), lr: 5.00e-04, train_MAE: 13.6123, train_RMSE: 22.1610, train_MAPE: 0.0909]
+2023-12-19 18:38:22,271 - easytorch-training - INFO - Start validation.
+2023-12-19 18:38:55,494 - easytorch-training - INFO - Result <val>: [val_time: 33.22 (s), val_MAE: 13.2300, val_RMSE: 22.0045, val_MAPE: 0.0911]
+2023-12-19 18:39:28,971 - easytorch-training - INFO - Result <test>: [test_time: 33.48 (s), test_MAE: 13.2932, test_RMSE: 22.0752, test_MAPE: 0.0939]
+2023-12-19 18:39:28,992 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_061.pt saved
+2023-12-19 18:39:28,992 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:50:21
+2023-12-19 18:39:28,992 - easytorch-training - INFO - Epoch 62 / 200
+2023-12-19 18:43:41,201 - easytorch-training - INFO - Result <train>: [train_time: 252.21 (s), lr: 5.00e-04, train_MAE: 13.5957, train_RMSE: 22.1247, train_MAPE: 0.0907]
+2023-12-19 18:43:41,202 - easytorch-training - INFO - Start validation.
+2023-12-19 18:44:14,375 - easytorch-training - INFO - Result <val>: [val_time: 33.17 (s), val_MAE: 13.2326, val_RMSE: 22.0468, val_MAPE: 0.0923]
+2023-12-19 18:44:47,775 - easytorch-training - INFO - Result <test>: [test_time: 33.40 (s), test_MAE: 13.2840, test_RMSE: 22.1099, test_MAPE: 0.0946]
+2023-12-19 18:44:47,795 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_062.pt saved
+2023-12-19 18:44:47,796 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:44:58
+2023-12-19 18:44:47,796 - easytorch-training - INFO - Epoch 63 / 200
+2023-12-19 18:48:59,395 - easytorch-training - INFO - Result <train>: [train_time: 251.60 (s), lr: 5.00e-04, train_MAE: 13.6152, train_RMSE: 22.1570, train_MAPE: 0.0906]
+2023-12-19 18:48:59,396 - easytorch-training - INFO - Start validation.
+2023-12-19 18:49:32,235 - easytorch-training - INFO - Result <val>: [val_time: 32.84 (s), val_MAE: 13.2779, val_RMSE: 22.0901, val_MAPE: 0.0918]
+2023-12-19 18:50:05,213 - easytorch-training - INFO - Result <test>: [test_time: 32.98 (s), test_MAE: 13.3749, test_RMSE: 22.2383, test_MAPE: 0.0958]
+2023-12-19 18:50:05,234 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_063.pt saved
+2023-12-19 18:50:05,234 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:39:40
+2023-12-19 18:50:05,234 - easytorch-training - INFO - Epoch 64 / 200
+2023-12-19 18:54:19,106 - easytorch-training - INFO - Result <train>: [train_time: 253.87 (s), lr: 5.00e-04, train_MAE: 13.5965, train_RMSE: 22.1210, train_MAPE: 0.0908]
+2023-12-19 18:54:19,108 - easytorch-training - INFO - Start validation.
+2023-12-19 18:54:52,126 - easytorch-training - INFO - Result <val>: [val_time: 33.02 (s), val_MAE: 13.2281, val_RMSE: 21.9526, val_MAPE: 0.0909]
+2023-12-19 18:55:25,560 - easytorch-training - INFO - Result <test>: [test_time: 33.43 (s), test_MAE: 13.2839, test_RMSE: 22.0617, test_MAPE: 0.0952]
+2023-12-19 18:55:25,581 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_064.pt saved
+2023-12-19 18:55:25,581 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:34:42
+2023-12-19 18:55:25,581 - easytorch-training - INFO - Epoch 65 / 200
+2023-12-19 18:59:38,685 - easytorch-training - INFO - Result <train>: [train_time: 253.10 (s), lr: 5.00e-04, train_MAE: 13.5889, train_RMSE: 22.1136, train_MAPE: 0.0907]
+2023-12-19 18:59:38,686 - easytorch-training - INFO - Start validation.
+2023-12-19 19:00:12,513 - easytorch-training - INFO - Result <val>: [val_time: 33.83 (s), val_MAE: 13.2572, val_RMSE: 22.0315, val_MAPE: 0.0906]
+2023-12-19 19:00:46,177 - easytorch-training - INFO - Result <test>: [test_time: 33.66 (s), test_MAE: 13.2686, test_RMSE: 22.0460, test_MAPE: 0.0930]
+2023-12-19 19:00:46,201 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_065.pt saved
+2023-12-19 19:00:46,201 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:29:53
+2023-12-19 19:00:46,201 - easytorch-training - INFO - Epoch 66 / 200
+2023-12-19 19:04:58,286 - easytorch-training - INFO - Result <train>: [train_time: 252.09 (s), lr: 5.00e-04, train_MAE: 13.5828, train_RMSE: 22.1056, train_MAPE: 0.0906]
+2023-12-19 19:04:58,287 - easytorch-training - INFO - Start validation.
+2023-12-19 19:05:31,908 - easytorch-training - INFO - Result <val>: [val_time: 33.62 (s), val_MAE: 13.2418, val_RMSE: 22.0139, val_MAPE: 0.0903]
+2023-12-19 19:06:05,718 - easytorch-training - INFO - Result <test>: [test_time: 33.81 (s), test_MAE: 13.2766, test_RMSE: 22.0631, test_MAPE: 0.0933]
+2023-12-19 19:06:05,738 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_066.pt saved
+2023-12-19 19:06:05,738 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:25:10
+2023-12-19 19:06:05,739 - easytorch-training - INFO - Epoch 67 / 200
+2023-12-19 19:10:19,071 - easytorch-training - INFO - Result <train>: [train_time: 253.33 (s), lr: 5.00e-04, train_MAE: 13.5896, train_RMSE: 22.1296, train_MAPE: 0.0906]
+2023-12-19 19:10:19,072 - easytorch-training - INFO - Start validation.
+2023-12-19 19:10:52,545 - easytorch-training - INFO - Result <val>: [val_time: 33.47 (s), val_MAE: 13.2233, val_RMSE: 21.9738, val_MAPE: 0.0913]
+2023-12-19 19:11:25,856 - easytorch-training - INFO - Result <test>: [test_time: 33.31 (s), test_MAE: 13.2920, test_RMSE: 22.0425, test_MAPE: 0.0940]
+2023-12-19 19:11:25,878 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_067.pt saved
+2023-12-19 19:11:25,878 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:20:37
+2023-12-19 19:11:25,878 - easytorch-training - INFO - Epoch 68 / 200
+2023-12-19 19:15:38,421 - easytorch-training - INFO - Result <train>: [train_time: 252.54 (s), lr: 5.00e-04, train_MAE: 13.5861, train_RMSE: 22.1089, train_MAPE: 0.0907]
+2023-12-19 19:15:38,422 - easytorch-training - INFO - Start validation.
+2023-12-19 19:16:12,373 - easytorch-training - INFO - Result <val>: [val_time: 33.95 (s), val_MAE: 13.2107, val_RMSE: 22.0001, val_MAPE: 0.0909]
+2023-12-19 19:16:45,311 - easytorch-training - INFO - Result <test>: [test_time: 32.94 (s), test_MAE: 13.2607, test_RMSE: 22.1083, test_MAPE: 0.0940]
+2023-12-19 19:16:45,336 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_068.pt saved
+2023-12-19 19:16:45,336 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:16:10
+2023-12-19 19:16:45,336 - easytorch-training - INFO - Epoch 69 / 200
+2023-12-19 19:20:56,232 - easytorch-training - INFO - Result <train>: [train_time: 250.90 (s), lr: 5.00e-04, train_MAE: 13.5733, train_RMSE: 22.0830, train_MAPE: 0.0905]
+2023-12-19 19:20:56,233 - easytorch-training - INFO - Start validation.
+2023-12-19 19:21:30,449 - easytorch-training - INFO - Result <val>: [val_time: 34.21 (s), val_MAE: 13.2447, val_RMSE: 22.0857, val_MAPE: 0.0929]
+2023-12-19 19:22:04,075 - easytorch-training - INFO - Result <test>: [test_time: 33.63 (s), test_MAE: 13.3022, test_RMSE: 22.0989, test_MAPE: 0.0955]
+2023-12-19 19:22:04,096 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_069.pt saved
+2023-12-19 19:22:04,096 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:11:49
+2023-12-19 19:22:04,096 - easytorch-training - INFO - Epoch 70 / 200
+2023-12-19 19:26:15,945 - easytorch-training - INFO - Result <train>: [train_time: 251.85 (s), lr: 5.00e-04, train_MAE: 13.5733, train_RMSE: 22.0931, train_MAPE: 0.0907]
+2023-12-19 19:26:15,946 - easytorch-training - INFO - Start validation.
+2023-12-19 19:26:49,833 - easytorch-training - INFO - Result <val>: [val_time: 33.89 (s), val_MAE: 13.2259, val_RMSE: 21.9918, val_MAPE: 0.0911]
+2023-12-19 19:27:23,158 - easytorch-training - INFO - Result <test>: [test_time: 33.32 (s), test_MAE: 13.3214, test_RMSE: 22.1414, test_MAPE: 0.0942]
+2023-12-19 19:27:23,179 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_070.pt saved
+2023-12-19 19:27:23,185 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:07:37
+2023-12-19 19:27:23,185 - easytorch-training - INFO - Epoch 71 / 200
+2023-12-19 19:31:34,283 - easytorch-training - INFO - Result <train>: [train_time: 251.10 (s), lr: 5.00e-04, train_MAE: 13.5819, train_RMSE: 22.1041, train_MAPE: 0.0905]
+2023-12-19 19:31:34,284 - easytorch-training - INFO - Start validation.
+2023-12-19 19:32:07,647 - easytorch-training - INFO - Result <val>: [val_time: 33.36 (s), val_MAE: 13.2162, val_RMSE: 21.9930, val_MAPE: 0.0903]
+2023-12-19 19:32:40,677 - easytorch-training - INFO - Result <test>: [test_time: 33.03 (s), test_MAE: 13.3166, test_RMSE: 22.1728, test_MAPE: 0.0938]
+2023-12-19 19:32:40,698 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_071.pt saved
+2023-12-19 19:32:40,698 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 10:03:27
+2023-12-19 19:32:40,698 - easytorch-training - INFO - Epoch 72 / 200
+2023-12-19 19:36:54,403 - easytorch-training - INFO - Result <train>: [train_time: 253.71 (s), lr: 5.00e-04, train_MAE: 13.5674, train_RMSE: 22.0784, train_MAPE: 0.0906]
+2023-12-19 19:36:54,404 - easytorch-training - INFO - Start validation.
+2023-12-19 19:37:27,548 - easytorch-training - INFO - Result <val>: [val_time: 33.14 (s), val_MAE: 13.2764, val_RMSE: 22.0165, val_MAPE: 0.0942]
+2023-12-19 19:38:00,855 - easytorch-training - INFO - Result <test>: [test_time: 33.31 (s), test_MAE: 13.3013, test_RMSE: 22.0343, test_MAPE: 0.0960]
+2023-12-19 19:38:00,877 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_072.pt saved
+2023-12-19 19:38:00,877 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:59:31
+2023-12-19 19:38:00,877 - easytorch-training - INFO - Epoch 73 / 200
+2023-12-19 19:42:12,920 - easytorch-training - INFO - Result <train>: [train_time: 252.04 (s), lr: 5.00e-04, train_MAE: 13.5636, train_RMSE: 22.0715, train_MAPE: 0.0905]
+2023-12-19 19:42:12,921 - easytorch-training - INFO - Start validation.
+2023-12-19 19:42:46,112 - easytorch-training - INFO - Result <val>: [val_time: 33.19 (s), val_MAE: 13.2305, val_RMSE: 21.9693, val_MAPE: 0.0922]
+2023-12-19 19:43:19,278 - easytorch-training - INFO - Result <test>: [test_time: 33.17 (s), test_MAE: 13.2983, test_RMSE: 22.1156, test_MAPE: 0.0960]
+2023-12-19 19:43:19,303 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_073.pt saved
+2023-12-19 19:43:19,304 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:55:37
+2023-12-19 19:43:19,304 - easytorch-training - INFO - Epoch 74 / 200
+2023-12-19 19:47:30,122 - easytorch-training - INFO - Result <train>: [train_time: 250.82 (s), lr: 5.00e-04, train_MAE: 13.5630, train_RMSE: 22.0713, train_MAPE: 0.0904]
+2023-12-19 19:47:30,123 - easytorch-training - INFO - Start validation.
+2023-12-19 19:48:03,167 - easytorch-training - INFO - Result <val>: [val_time: 33.04 (s), val_MAE: 13.2526, val_RMSE: 22.0475, val_MAPE: 0.0902]
+2023-12-19 19:48:36,153 - easytorch-training - INFO - Result <test>: [test_time: 32.98 (s), test_MAE: 13.3211, test_RMSE: 22.1853, test_MAPE: 0.0937]
+2023-12-19 19:48:36,177 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_074.pt saved
+2023-12-19 19:48:36,177 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:51:45
+2023-12-19 19:48:36,177 - easytorch-training - INFO - Epoch 75 / 200
+2023-12-19 19:52:47,842 - easytorch-training - INFO - Result <train>: [train_time: 251.66 (s), lr: 5.00e-04, train_MAE: 13.5627, train_RMSE: 22.0794, train_MAPE: 0.0905]
+2023-12-19 19:52:47,843 - easytorch-training - INFO - Start validation.
+2023-12-19 19:53:21,321 - easytorch-training - INFO - Result <val>: [val_time: 33.48 (s), val_MAE: 13.2220, val_RMSE: 22.0488, val_MAPE: 0.0910]
+2023-12-19 19:53:54,982 - easytorch-training - INFO - Result <test>: [test_time: 33.66 (s), test_MAE: 13.2860, test_RMSE: 22.1429, test_MAPE: 0.0936]
+2023-12-19 19:53:55,007 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_075.pt saved
+2023-12-19 19:53:55,007 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:48:05
+2023-12-19 19:53:55,007 - easytorch-training - INFO - Epoch 76 / 200
+2023-12-19 19:58:06,587 - easytorch-training - INFO - Result <train>: [train_time: 251.58 (s), lr: 5.00e-04, train_MAE: 13.5473, train_RMSE: 22.0467, train_MAPE: 0.0904]
+2023-12-19 19:58:06,588 - easytorch-training - INFO - Start validation.
+2023-12-19 19:58:39,751 - easytorch-training - INFO - Result <val>: [val_time: 33.16 (s), val_MAE: 13.2223, val_RMSE: 22.0114, val_MAPE: 0.0905]
+2023-12-19 19:59:13,623 - easytorch-training - INFO - Result <test>: [test_time: 33.87 (s), test_MAE: 13.2656, test_RMSE: 22.0855, test_MAPE: 0.0948]
+2023-12-19 19:59:13,646 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_076.pt saved
+2023-12-19 19:59:13,647 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:44:30
+2023-12-19 19:59:13,647 - easytorch-training - INFO - Epoch 77 / 200
+2023-12-19 20:03:24,422 - easytorch-training - INFO - Result <train>: [train_time: 250.77 (s), lr: 5.00e-04, train_MAE: 13.5653, train_RMSE: 22.0789, train_MAPE: 0.0904]
+2023-12-19 20:03:24,423 - easytorch-training - INFO - Start validation.
+2023-12-19 20:03:57,831 - easytorch-training - INFO - Result <val>: [val_time: 33.41 (s), val_MAE: 13.2078, val_RMSE: 21.9784, val_MAPE: 0.0894]
+2023-12-19 20:04:31,787 - easytorch-training - INFO - Result <test>: [test_time: 33.96 (s), test_MAE: 13.2711, test_RMSE: 22.1093, test_MAPE: 0.0929]
+2023-12-19 20:04:31,810 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_077.pt saved
+2023-12-19 20:04:31,810 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:40:59
+2023-12-19 20:04:31,810 - easytorch-training - INFO - Epoch 78 / 200
+2023-12-19 20:08:41,079 - easytorch-training - INFO - Result <train>: [train_time: 249.27 (s), lr: 5.00e-04, train_MAE: 13.5605, train_RMSE: 22.0646, train_MAPE: 0.0904]
+2023-12-19 20:08:41,080 - easytorch-training - INFO - Start validation.
+2023-12-19 20:09:14,257 - easytorch-training - INFO - Result <val>: [val_time: 33.18 (s), val_MAE: 13.2297, val_RMSE: 22.0474, val_MAPE: 0.0898]
+2023-12-19 20:09:48,263 - easytorch-training - INFO - Result <test>: [test_time: 34.00 (s), test_MAE: 13.3217, test_RMSE: 22.2153, test_MAPE: 0.0936]
+2023-12-19 20:09:48,285 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_078.pt saved
+2023-12-19 20:09:48,285 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:37:29
+2023-12-19 20:09:48,285 - easytorch-training - INFO - Epoch 79 / 200
+2023-12-19 20:13:59,833 - easytorch-training - INFO - Result <train>: [train_time: 251.55 (s), lr: 5.00e-04, train_MAE: 13.5452, train_RMSE: 22.0440, train_MAPE: 0.0904]
+2023-12-19 20:13:59,834 - easytorch-training - INFO - Start validation.
+2023-12-19 20:14:33,031 - easytorch-training - INFO - Result <val>: [val_time: 33.20 (s), val_MAE: 13.2576, val_RMSE: 22.0546, val_MAPE: 0.0921]
+2023-12-19 20:15:06,630 - easytorch-training - INFO - Result <test>: [test_time: 33.60 (s), test_MAE: 13.3286, test_RMSE: 22.1674, test_MAPE: 0.0942]
+2023-12-19 20:15:06,653 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_079.pt saved
+2023-12-19 20:15:06,653 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:34:09
+2023-12-19 20:15:06,653 - easytorch-training - INFO - Epoch 80 / 200
+2023-12-19 20:19:18,357 - easytorch-training - INFO - Result <train>: [train_time: 251.70 (s), lr: 5.00e-04, train_MAE: 13.5422, train_RMSE: 22.0418, train_MAPE: 0.0904]
+2023-12-19 20:19:18,358 - easytorch-training - INFO - Start validation.
+2023-12-19 20:19:51,685 - easytorch-training - INFO - Result <val>: [val_time: 33.33 (s), val_MAE: 13.2637, val_RMSE: 22.0486, val_MAPE: 0.0902]
+2023-12-19 20:20:25,377 - easytorch-training - INFO - Result <test>: [test_time: 33.69 (s), test_MAE: 13.3333, test_RMSE: 22.1990, test_MAPE: 0.0934]
+2023-12-19 20:20:25,400 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_080.pt saved
+2023-12-19 20:20:25,407 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:30:56
+2023-12-19 20:20:25,407 - easytorch-training - INFO - Epoch 81 / 200
+2023-12-19 20:24:36,830 - easytorch-training - INFO - Result <train>: [train_time: 251.42 (s), lr: 5.00e-04, train_MAE: 13.5523, train_RMSE: 22.0571, train_MAPE: 0.0904]
+2023-12-19 20:24:36,831 - easytorch-training - INFO - Start validation.
+2023-12-19 20:25:10,433 - easytorch-training - INFO - Result <val>: [val_time: 33.60 (s), val_MAE: 13.2584, val_RMSE: 22.0191, val_MAPE: 0.0906]
+2023-12-19 20:25:43,467 - easytorch-training - INFO - Result <test>: [test_time: 33.03 (s), test_MAE: 13.3422, test_RMSE: 22.1445, test_MAPE: 0.0942]
+2023-12-19 20:25:43,491 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_081.pt saved
+2023-12-19 20:25:43,491 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:27:45
+2023-12-19 20:25:43,491 - easytorch-training - INFO - Epoch 82 / 200
+2023-12-19 20:29:54,960 - easytorch-training - INFO - Result <train>: [train_time: 251.47 (s), lr: 5.00e-04, train_MAE: 13.5289, train_RMSE: 22.0193, train_MAPE: 0.0904]
+2023-12-19 20:29:54,961 - easytorch-training - INFO - Start validation.
+2023-12-19 20:30:29,502 - easytorch-training - INFO - Result <val>: [val_time: 34.54 (s), val_MAE: 13.2475, val_RMSE: 22.0660, val_MAPE: 0.0905]
+2023-12-19 20:31:02,407 - easytorch-training - INFO - Result <test>: [test_time: 32.90 (s), test_MAE: 13.3174, test_RMSE: 22.2022, test_MAPE: 0.0939]
+2023-12-19 20:31:02,430 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_082.pt saved
+2023-12-19 20:31:02,430 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:24:41
+2023-12-19 20:31:02,430 - easytorch-training - INFO - Epoch 83 / 200
+2023-12-19 20:35:14,752 - easytorch-training - INFO - Result <train>: [train_time: 252.32 (s), lr: 5.00e-04, train_MAE: 13.5482, train_RMSE: 22.0529, train_MAPE: 0.0903]
+2023-12-19 20:35:14,753 - easytorch-training - INFO - Start validation.
+2023-12-19 20:35:48,589 - easytorch-training - INFO - Result <val>: [val_time: 33.84 (s), val_MAE: 13.2152, val_RMSE: 22.0446, val_MAPE: 0.0904]
+2023-12-19 20:36:21,684 - easytorch-training - INFO - Result <test>: [test_time: 33.09 (s), test_MAE: 13.2598, test_RMSE: 22.1280, test_MAPE: 0.0940]
+2023-12-19 20:36:21,775 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_083.pt saved
+2023-12-19 20:36:21,776 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:21:43
+2023-12-19 20:36:21,776 - easytorch-training - INFO - Epoch 84 / 200
+2023-12-19 20:40:33,814 - easytorch-training - INFO - Result <train>: [train_time: 252.04 (s), lr: 5.00e-04, train_MAE: 13.5252, train_RMSE: 22.0089, train_MAPE: 0.0902]
+2023-12-19 20:40:33,815 - easytorch-training - INFO - Start validation.
+2023-12-19 20:41:07,696 - easytorch-training - INFO - Result <val>: [val_time: 33.88 (s), val_MAE: 13.2091, val_RMSE: 22.0236, val_MAPE: 0.0893]
+2023-12-19 20:41:41,180 - easytorch-training - INFO - Result <test>: [test_time: 33.48 (s), test_MAE: 13.2828, test_RMSE: 22.1256, test_MAPE: 0.0925]
+2023-12-19 20:41:41,201 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_084.pt saved
+2023-12-19 20:41:41,201 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:18:49
+2023-12-19 20:41:41,201 - easytorch-training - INFO - Epoch 85 / 200
+2023-12-19 20:45:58,434 - easytorch-training - INFO - Result <train>: [train_time: 257.23 (s), lr: 5.00e-04, train_MAE: 13.5402, train_RMSE: 22.0377, train_MAPE: 0.0902]
+2023-12-19 20:45:58,435 - easytorch-training - INFO - Start validation.
+2023-12-19 20:46:32,477 - easytorch-training - INFO - Result <val>: [val_time: 34.04 (s), val_MAE: 13.2017, val_RMSE: 21.9604, val_MAPE: 0.0902]
+2023-12-19 20:46:32,518 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 20:47:06,151 - easytorch-training - INFO - Result <test>: [test_time: 33.63 (s), test_MAE: 13.2482, test_RMSE: 22.0687, test_MAPE: 0.0935]
+2023-12-19 20:47:06,175 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_085.pt saved
+2023-12-19 20:47:06,176 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:16:12
+2023-12-19 20:47:06,176 - easytorch-training - INFO - Epoch 86 / 200
+2023-12-19 20:51:17,189 - easytorch-training - INFO - Result <train>: [train_time: 251.01 (s), lr: 5.00e-04, train_MAE: 13.5483, train_RMSE: 22.0476, train_MAPE: 0.0902]
+2023-12-19 20:51:17,190 - easytorch-training - INFO - Start validation.
+2023-12-19 20:51:50,614 - easytorch-training - INFO - Result <val>: [val_time: 33.42 (s), val_MAE: 13.2315, val_RMSE: 22.0470, val_MAPE: 0.0909]
+2023-12-19 20:52:23,860 - easytorch-training - INFO - Result <test>: [test_time: 33.25 (s), test_MAE: 13.2939, test_RMSE: 22.1215, test_MAPE: 0.0928]
+2023-12-19 20:52:23,882 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_086.pt saved
+2023-12-19 20:52:23,882 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:13:22
+2023-12-19 20:52:23,882 - easytorch-training - INFO - Epoch 87 / 200
+2023-12-19 20:56:37,236 - easytorch-training - INFO - Result <train>: [train_time: 253.35 (s), lr: 5.00e-04, train_MAE: 13.5164, train_RMSE: 21.9958, train_MAPE: 0.0902]
+2023-12-19 20:56:37,237 - easytorch-training - INFO - Start validation.
+2023-12-19 20:57:11,078 - easytorch-training - INFO - Result <val>: [val_time: 33.84 (s), val_MAE: 13.2636, val_RMSE: 22.0938, val_MAPE: 0.0925]
+2023-12-19 20:57:43,911 - easytorch-training - INFO - Result <test>: [test_time: 32.83 (s), test_MAE: 13.3209, test_RMSE: 22.1645, test_MAPE: 0.0949]
+2023-12-19 20:57:43,935 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_087.pt saved
+2023-12-19 20:57:43,935 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:10:41
+2023-12-19 20:57:43,935 - easytorch-training - INFO - Epoch 88 / 200
+2023-12-19 21:01:56,013 - easytorch-training - INFO - Result <train>: [train_time: 252.08 (s), lr: 5.00e-04, train_MAE: 13.5348, train_RMSE: 22.0308, train_MAPE: 0.0902]
+2023-12-19 21:01:56,014 - easytorch-training - INFO - Start validation.
+2023-12-19 21:02:29,828 - easytorch-training - INFO - Result <val>: [val_time: 33.81 (s), val_MAE: 13.2275, val_RMSE: 22.0420, val_MAPE: 0.0891]
+2023-12-19 21:03:02,893 - easytorch-training - INFO - Result <test>: [test_time: 33.06 (s), test_MAE: 13.2568, test_RMSE: 22.0642, test_MAPE: 0.0912]
+2023-12-19 21:03:02,914 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_088.pt saved
+2023-12-19 21:03:02,914 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:08:02
+2023-12-19 21:03:02,914 - easytorch-training - INFO - Epoch 89 / 200
+2023-12-19 21:07:14,334 - easytorch-training - INFO - Result <train>: [train_time: 251.42 (s), lr: 5.00e-04, train_MAE: 13.5228, train_RMSE: 22.0010, train_MAPE: 0.0902]
+2023-12-19 21:07:14,335 - easytorch-training - INFO - Start validation.
+2023-12-19 21:07:47,204 - easytorch-training - INFO - Result <val>: [val_time: 32.87 (s), val_MAE: 13.1846, val_RMSE: 21.9462, val_MAPE: 0.0891]
+2023-12-19 21:07:47,244 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 21:08:20,714 - easytorch-training - INFO - Result <test>: [test_time: 33.47 (s), test_MAE: 13.2719, test_RMSE: 22.1369, test_MAPE: 0.0920]
+2023-12-19 21:08:20,739 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_089.pt saved
+2023-12-19 21:08:20,739 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:05:23
+2023-12-19 21:08:20,739 - easytorch-training - INFO - Epoch 90 / 200
+2023-12-19 21:12:32,791 - easytorch-training - INFO - Result <train>: [train_time: 252.05 (s), lr: 5.00e-04, train_MAE: 13.5335, train_RMSE: 22.0331, train_MAPE: 0.0903]
+2023-12-19 21:12:32,792 - easytorch-training - INFO - Start validation.
+2023-12-19 21:13:06,388 - easytorch-training - INFO - Result <val>: [val_time: 33.60 (s), val_MAE: 13.2617, val_RMSE: 22.0611, val_MAPE: 0.0913]
+2023-12-19 21:13:40,602 - easytorch-training - INFO - Result <test>: [test_time: 34.21 (s), test_MAE: 13.2751, test_RMSE: 22.1142, test_MAPE: 0.0939]
+2023-12-19 21:13:40,623 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_090.pt saved
+2023-12-19 21:13:40,630 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:02:53
+2023-12-19 21:13:40,630 - easytorch-training - INFO - Epoch 91 / 200
+2023-12-19 21:17:52,615 - easytorch-training - INFO - Result <train>: [train_time: 251.99 (s), lr: 5.00e-04, train_MAE: 13.5192, train_RMSE: 21.9978, train_MAPE: 0.0901]
+2023-12-19 21:17:52,617 - easytorch-training - INFO - Start validation.
+2023-12-19 21:18:25,992 - easytorch-training - INFO - Result <val>: [val_time: 33.38 (s), val_MAE: 13.2013, val_RMSE: 22.0052, val_MAPE: 0.0907]
+2023-12-19 21:18:59,630 - easytorch-training - INFO - Result <test>: [test_time: 33.64 (s), test_MAE: 13.2670, test_RMSE: 22.1067, test_MAPE: 0.0941]
+2023-12-19 21:18:59,650 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_091.pt saved
+2023-12-19 21:18:59,650 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 09:00:24
+2023-12-19 21:18:59,650 - easytorch-training - INFO - Epoch 92 / 200
+2023-12-19 21:23:10,212 - easytorch-training - INFO - Result <train>: [train_time: 250.56 (s), lr: 5.00e-04, train_MAE: 13.5075, train_RMSE: 21.9889, train_MAPE: 0.0902]
+2023-12-19 21:23:10,213 - easytorch-training - INFO - Start validation.
+2023-12-19 21:23:42,225 - easytorch-training - INFO - Result <val>: [val_time: 32.01 (s), val_MAE: 13.1902, val_RMSE: 21.9498, val_MAPE: 0.0895]
+2023-12-19 21:24:15,580 - easytorch-training - INFO - Result <test>: [test_time: 33.35 (s), test_MAE: 13.3023, test_RMSE: 22.1505, test_MAPE: 0.0925]
+2023-12-19 21:24:15,604 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_092.pt saved
+2023-12-19 21:24:15,604 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:57:51
+2023-12-19 21:24:15,604 - easytorch-training - INFO - Epoch 93 / 200
+2023-12-19 21:28:29,749 - easytorch-training - INFO - Result <train>: [train_time: 254.14 (s), lr: 5.00e-04, train_MAE: 13.5095, train_RMSE: 21.9872, train_MAPE: 0.0901]
+2023-12-19 21:28:29,750 - easytorch-training - INFO - Start validation.
+2023-12-19 21:29:03,208 - easytorch-training - INFO - Result <val>: [val_time: 33.46 (s), val_MAE: 13.2570, val_RMSE: 22.0473, val_MAPE: 0.0914]
+2023-12-19 21:29:36,983 - easytorch-training - INFO - Result <test>: [test_time: 33.77 (s), test_MAE: 13.3617, test_RMSE: 22.2492, test_MAPE: 0.0939]
+2023-12-19 21:29:37,006 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_093.pt saved
+2023-12-19 21:29:37,006 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:55:34
+2023-12-19 21:29:37,006 - easytorch-training - INFO - Epoch 94 / 200
+2023-12-19 21:33:47,960 - easytorch-training - INFO - Result <train>: [train_time: 250.95 (s), lr: 5.00e-04, train_MAE: 13.5096, train_RMSE: 21.9937, train_MAPE: 0.0901]
+2023-12-19 21:33:47,962 - easytorch-training - INFO - Start validation.
+2023-12-19 21:34:21,060 - easytorch-training - INFO - Result <val>: [val_time: 33.10 (s), val_MAE: 13.2097, val_RMSE: 21.9779, val_MAPE: 0.0907]
+2023-12-19 21:34:54,614 - easytorch-training - INFO - Result <test>: [test_time: 33.55 (s), test_MAE: 13.2427, test_RMSE: 22.0358, test_MAPE: 0.0932]
+2023-12-19 21:34:54,635 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_094.pt saved
+2023-12-19 21:34:54,635 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:53:11
+2023-12-19 21:34:54,635 - easytorch-training - INFO - Epoch 95 / 200
+2023-12-19 21:39:05,588 - easytorch-training - INFO - Result <train>: [train_time: 250.95 (s), lr: 5.00e-04, train_MAE: 13.5277, train_RMSE: 22.0188, train_MAPE: 0.0901]
+2023-12-19 21:39:05,589 - easytorch-training - INFO - Start validation.
+2023-12-19 21:39:38,894 - easytorch-training - INFO - Result <val>: [val_time: 33.30 (s), val_MAE: 13.2589, val_RMSE: 22.1155, val_MAPE: 0.0910]
+2023-12-19 21:40:13,198 - easytorch-training - INFO - Result <test>: [test_time: 34.30 (s), test_MAE: 13.3142, test_RMSE: 22.2113, test_MAPE: 0.0934]
+2023-12-19 21:40:13,218 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_095.pt saved
+2023-12-19 21:40:13,219 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:50:54
+2023-12-19 21:40:13,219 - easytorch-training - INFO - Epoch 96 / 200
+2023-12-19 21:44:24,273 - easytorch-training - INFO - Result <train>: [train_time: 251.05 (s), lr: 5.00e-04, train_MAE: 13.5236, train_RMSE: 22.0151, train_MAPE: 0.0900]
+2023-12-19 21:44:24,274 - easytorch-training - INFO - Start validation.
+2023-12-19 21:44:58,467 - easytorch-training - INFO - Result <val>: [val_time: 34.19 (s), val_MAE: 13.2521, val_RMSE: 22.0536, val_MAPE: 0.0902]
+2023-12-19 21:45:32,191 - easytorch-training - INFO - Result <test>: [test_time: 33.72 (s), test_MAE: 13.3173, test_RMSE: 22.1836, test_MAPE: 0.0921]
+2023-12-19 21:45:32,212 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_096.pt saved
+2023-12-19 21:45:32,212 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:48:40
+2023-12-19 21:45:32,212 - easytorch-training - INFO - Epoch 97 / 200
+2023-12-19 21:49:43,111 - easytorch-training - INFO - Result <train>: [train_time: 250.90 (s), lr: 5.00e-04, train_MAE: 13.5219, train_RMSE: 22.0047, train_MAPE: 0.0901]
+2023-12-19 21:49:43,112 - easytorch-training - INFO - Start validation.
+2023-12-19 21:50:16,166 - easytorch-training - INFO - Result <val>: [val_time: 33.05 (s), val_MAE: 13.1896, val_RMSE: 21.9943, val_MAPE: 0.0897]
+2023-12-19 21:50:49,645 - easytorch-training - INFO - Result <test>: [test_time: 33.48 (s), test_MAE: 13.2196, test_RMSE: 21.9945, test_MAPE: 0.0925]
+2023-12-19 21:50:49,668 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_097.pt saved
+2023-12-19 21:50:49,668 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:46:25
+2023-12-19 21:50:49,668 - easytorch-training - INFO - Epoch 98 / 200
+2023-12-19 21:55:01,755 - easytorch-training - INFO - Result <train>: [train_time: 252.09 (s), lr: 5.00e-04, train_MAE: 13.4961, train_RMSE: 21.9674, train_MAPE: 0.0900]
+2023-12-19 21:55:01,756 - easytorch-training - INFO - Start validation.
+2023-12-19 21:55:35,045 - easytorch-training - INFO - Result <val>: [val_time: 33.29 (s), val_MAE: 13.2101, val_RMSE: 21.9913, val_MAPE: 0.0892]
+2023-12-19 21:56:08,417 - easytorch-training - INFO - Result <test>: [test_time: 33.37 (s), test_MAE: 13.2468, test_RMSE: 22.0572, test_MAPE: 0.0922]
+2023-12-19 21:56:08,440 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_098.pt saved
+2023-12-19 21:56:08,440 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:44:17
+2023-12-19 21:56:08,440 - easytorch-training - INFO - Epoch 99 / 200
+2023-12-19 22:00:20,624 - easytorch-training - INFO - Result <train>: [train_time: 252.18 (s), lr: 5.00e-04, train_MAE: 13.4998, train_RMSE: 21.9661, train_MAPE: 0.0900]
+2023-12-19 22:00:20,625 - easytorch-training - INFO - Start validation.
+2023-12-19 22:00:54,222 - easytorch-training - INFO - Result <val>: [val_time: 33.60 (s), val_MAE: 13.1856, val_RMSE: 22.0001, val_MAPE: 0.0886]
+2023-12-19 22:01:27,293 - easytorch-training - INFO - Result <test>: [test_time: 33.07 (s), test_MAE: 13.2447, test_RMSE: 22.0843, test_MAPE: 0.0923]
+2023-12-19 22:01:27,314 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_099.pt saved
+2023-12-19 22:01:27,315 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:42:11
+2023-12-19 22:01:27,315 - easytorch-training - INFO - Epoch 100 / 200
+2023-12-19 22:05:38,978 - easytorch-training - INFO - Result <train>: [train_time: 251.66 (s), lr: 5.00e-04, train_MAE: 13.5070, train_RMSE: 21.9864, train_MAPE: 0.0900]
+2023-12-19 22:05:38,979 - easytorch-training - INFO - Start validation.
+2023-12-19 22:06:12,601 - easytorch-training - INFO - Result <val>: [val_time: 33.62 (s), val_MAE: 13.1931, val_RMSE: 22.0200, val_MAPE: 0.0897]
+2023-12-19 22:06:46,071 - easytorch-training - INFO - Result <test>: [test_time: 33.47 (s), test_MAE: 13.2949, test_RMSE: 22.1461, test_MAPE: 0.0924]
+2023-12-19 22:06:46,099 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_100.pt saved
+2023-12-19 22:06:46,106 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:40:07
+2023-12-19 22:06:46,106 - easytorch-training - INFO - Epoch 101 / 200
+2023-12-19 22:10:57,882 - easytorch-training - INFO - Result <train>: [train_time: 251.78 (s), lr: 5.00e-04, train_MAE: 13.5028, train_RMSE: 21.9765, train_MAPE: 0.0899]
+2023-12-19 22:10:57,884 - easytorch-training - INFO - Start validation.
+2023-12-19 22:11:30,992 - easytorch-training - INFO - Result <val>: [val_time: 33.11 (s), val_MAE: 13.2339, val_RMSE: 21.9980, val_MAPE: 0.0901]
+2023-12-19 22:12:04,866 - easytorch-training - INFO - Result <test>: [test_time: 33.87 (s), test_MAE: 13.3299, test_RMSE: 22.1180, test_MAPE: 0.0923]
+2023-12-19 22:12:04,889 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_101.pt saved
+2023-12-19 22:12:04,889 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:38:06
+2023-12-19 22:12:04,890 - easytorch-training - INFO - Epoch 102 / 200
+2023-12-19 22:16:18,750 - easytorch-training - INFO - Result <train>: [train_time: 253.86 (s), lr: 5.00e-04, train_MAE: 13.4987, train_RMSE: 21.9713, train_MAPE: 0.0899]
+2023-12-19 22:16:18,750 - easytorch-training - INFO - Start validation.
+2023-12-19 22:16:52,219 - easytorch-training - INFO - Result <val>: [val_time: 33.47 (s), val_MAE: 13.2080, val_RMSE: 21.9760, val_MAPE: 0.0891]
+2023-12-19 22:17:25,472 - easytorch-training - INFO - Result <test>: [test_time: 33.25 (s), test_MAE: 13.2762, test_RMSE: 22.1423, test_MAPE: 0.0916]
+2023-12-19 22:17:25,497 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_102.pt saved
+2023-12-19 22:17:25,498 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:36:10
+2023-12-19 22:17:25,498 - easytorch-training - INFO - Epoch 103 / 200
+2023-12-19 22:21:37,794 - easytorch-training - INFO - Result <train>: [train_time: 252.30 (s), lr: 5.00e-04, train_MAE: 13.4918, train_RMSE: 21.9563, train_MAPE: 0.0899]
+2023-12-19 22:21:37,795 - easytorch-training - INFO - Start validation.
+2023-12-19 22:22:11,415 - easytorch-training - INFO - Result <val>: [val_time: 33.62 (s), val_MAE: 13.2265, val_RMSE: 22.0051, val_MAPE: 0.0914]
+2023-12-19 22:22:45,212 - easytorch-training - INFO - Result <test>: [test_time: 33.80 (s), test_MAE: 13.3176, test_RMSE: 22.1899, test_MAPE: 0.0940]
+2023-12-19 22:22:45,239 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_103.pt saved
+2023-12-19 22:22:45,239 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:34:16
+2023-12-19 22:22:45,239 - easytorch-training - INFO - Epoch 104 / 200
+2023-12-19 22:27:00,226 - easytorch-training - INFO - Result <train>: [train_time: 254.99 (s), lr: 5.00e-04, train_MAE: 13.4879, train_RMSE: 21.9566, train_MAPE: 0.0899]
+2023-12-19 22:27:00,227 - easytorch-training - INFO - Start validation.
+2023-12-19 22:27:33,274 - easytorch-training - INFO - Result <val>: [val_time: 33.05 (s), val_MAE: 13.2298, val_RMSE: 22.0021, val_MAPE: 0.0898]
+2023-12-19 22:28:06,952 - easytorch-training - INFO - Result <test>: [test_time: 33.68 (s), test_MAE: 13.3587, test_RMSE: 22.2135, test_MAPE: 0.0921]
+2023-12-19 22:28:06,974 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_104.pt saved
+2023-12-19 22:28:06,974 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:32:27
+2023-12-19 22:28:06,974 - easytorch-training - INFO - Epoch 105 / 200
+2023-12-19 22:32:19,321 - easytorch-training - INFO - Result <train>: [train_time: 252.35 (s), lr: 5.00e-04, train_MAE: 13.5040, train_RMSE: 21.9788, train_MAPE: 0.0900]
+2023-12-19 22:32:19,322 - easytorch-training - INFO - Start validation.
+2023-12-19 22:32:52,362 - easytorch-training - INFO - Result <val>: [val_time: 33.04 (s), val_MAE: 13.2233, val_RMSE: 22.0275, val_MAPE: 0.0888]
+2023-12-19 22:33:26,320 - easytorch-training - INFO - Result <test>: [test_time: 33.96 (s), test_MAE: 13.3219, test_RMSE: 22.2419, test_MAPE: 0.0923]
+2023-12-19 22:33:26,344 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_105.pt saved
+2023-12-19 22:33:26,344 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:30:36
+2023-12-19 22:33:26,344 - easytorch-training - INFO - Epoch 106 / 200
+2023-12-19 22:37:38,657 - easytorch-training - INFO - Result <train>: [train_time: 252.31 (s), lr: 5.00e-04, train_MAE: 13.4959, train_RMSE: 21.9711, train_MAPE: 0.0900]
+2023-12-19 22:37:38,658 - easytorch-training - INFO - Start validation.
+2023-12-19 22:38:11,394 - easytorch-training - INFO - Result <val>: [val_time: 32.74 (s), val_MAE: 13.3246, val_RMSE: 22.1062, val_MAPE: 0.0923]
+2023-12-19 22:38:44,795 - easytorch-training - INFO - Result <test>: [test_time: 33.40 (s), test_MAE: 13.3690, test_RMSE: 22.2085, test_MAPE: 0.0941]
+2023-12-19 22:38:44,815 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_106.pt saved
+2023-12-19 22:38:44,815 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:28:45
+2023-12-19 22:38:44,815 - easytorch-training - INFO - Epoch 107 / 200
+2023-12-19 22:42:56,473 - easytorch-training - INFO - Result <train>: [train_time: 251.66 (s), lr: 5.00e-04, train_MAE: 13.4836, train_RMSE: 21.9438, train_MAPE: 0.0899]
+2023-12-19 22:42:56,474 - easytorch-training - INFO - Start validation.
+2023-12-19 22:43:29,791 - easytorch-training - INFO - Result <val>: [val_time: 33.32 (s), val_MAE: 13.1818, val_RMSE: 22.0313, val_MAPE: 0.0885]
+2023-12-19 22:43:29,830 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 22:44:03,537 - easytorch-training - INFO - Result <test>: [test_time: 33.71 (s), test_MAE: 13.2973, test_RMSE: 22.2386, test_MAPE: 0.0919]
+2023-12-19 22:44:03,560 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_107.pt saved
+2023-12-19 22:44:03,560 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:26:57
+2023-12-19 22:44:03,560 - easytorch-training - INFO - Epoch 108 / 200
+2023-12-19 22:48:15,008 - easytorch-training - INFO - Result <train>: [train_time: 251.45 (s), lr: 5.00e-04, train_MAE: 13.4862, train_RMSE: 21.9493, train_MAPE: 0.0898]
+2023-12-19 22:48:15,009 - easytorch-training - INFO - Start validation.
+2023-12-19 22:48:47,773 - easytorch-training - INFO - Result <val>: [val_time: 32.76 (s), val_MAE: 13.2881, val_RMSE: 22.0955, val_MAPE: 0.0911]
+2023-12-19 22:49:20,688 - easytorch-training - INFO - Result <test>: [test_time: 32.91 (s), test_MAE: 13.3636, test_RMSE: 22.2831, test_MAPE: 0.0940]
+2023-12-19 22:49:20,708 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_108.pt saved
+2023-12-19 22:49:20,708 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:25:08
+2023-12-19 22:49:20,708 - easytorch-training - INFO - Epoch 109 / 200
+2023-12-19 22:53:32,859 - easytorch-training - INFO - Result <train>: [train_time: 252.15 (s), lr: 5.00e-04, train_MAE: 13.4913, train_RMSE: 21.9563, train_MAPE: 0.0899]
+2023-12-19 22:53:32,860 - easytorch-training - INFO - Start validation.
+2023-12-19 22:54:06,424 - easytorch-training - INFO - Result <val>: [val_time: 33.56 (s), val_MAE: 13.2357, val_RMSE: 21.9966, val_MAPE: 0.0892]
+2023-12-19 22:54:39,858 - easytorch-training - INFO - Result <test>: [test_time: 33.43 (s), test_MAE: 13.2952, test_RMSE: 22.0748, test_MAPE: 0.0925]
+2023-12-19 22:54:39,880 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_109.pt saved
+2023-12-19 22:54:39,880 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:23:24
+2023-12-19 22:54:39,880 - easytorch-training - INFO - Epoch 110 / 200
+2023-12-19 22:58:52,631 - easytorch-training - INFO - Result <train>: [train_time: 252.75 (s), lr: 5.00e-04, train_MAE: 13.4817, train_RMSE: 21.9404, train_MAPE: 0.0898]
+2023-12-19 22:58:52,632 - easytorch-training - INFO - Start validation.
+2023-12-19 22:59:26,654 - easytorch-training - INFO - Result <val>: [val_time: 34.02 (s), val_MAE: 13.2559, val_RMSE: 22.0856, val_MAPE: 0.0895]
+2023-12-19 23:00:00,703 - easytorch-training - INFO - Result <test>: [test_time: 34.05 (s), test_MAE: 13.3147, test_RMSE: 22.2040, test_MAPE: 0.0931]
+2023-12-19 23:00:00,723 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_110.pt saved
+2023-12-19 23:00:00,730 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:21:46
+2023-12-19 23:00:00,730 - easytorch-training - INFO - Epoch 111 / 200
+2023-12-19 23:04:11,558 - easytorch-training - INFO - Result <train>: [train_time: 250.83 (s), lr: 5.00e-04, train_MAE: 13.4805, train_RMSE: 21.9339, train_MAPE: 0.0898]
+2023-12-19 23:04:11,559 - easytorch-training - INFO - Start validation.
+2023-12-19 23:04:45,223 - easytorch-training - INFO - Result <val>: [val_time: 33.66 (s), val_MAE: 13.2631, val_RMSE: 22.0556, val_MAPE: 0.0918]
+2023-12-19 23:05:18,559 - easytorch-training - INFO - Result <test>: [test_time: 33.33 (s), test_MAE: 13.3536, test_RMSE: 22.2339, test_MAPE: 0.0941]
+2023-12-19 23:05:18,583 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_111.pt saved
+2023-12-19 23:05:18,583 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:20:04
+2023-12-19 23:05:18,583 - easytorch-training - INFO - Epoch 112 / 200
+2023-12-19 23:09:31,047 - easytorch-training - INFO - Result <train>: [train_time: 252.46 (s), lr: 5.00e-04, train_MAE: 13.4860, train_RMSE: 21.9493, train_MAPE: 0.0898]
+2023-12-19 23:09:31,048 - easytorch-training - INFO - Start validation.
+2023-12-19 23:10:04,609 - easytorch-training - INFO - Result <val>: [val_time: 33.56 (s), val_MAE: 13.1657, val_RMSE: 21.9764, val_MAPE: 0.0885]
+2023-12-19 23:10:04,643 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-19 23:10:37,982 - easytorch-training - INFO - Result <test>: [test_time: 33.34 (s), test_MAE: 13.2727, test_RMSE: 22.1575, test_MAPE: 0.0927]
+2023-12-19 23:10:38,006 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_112.pt saved
+2023-12-19 23:10:38,006 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:18:26
+2023-12-19 23:10:38,006 - easytorch-training - INFO - Epoch 113 / 200
+2023-12-19 23:14:50,754 - easytorch-training - INFO - Result <train>: [train_time: 252.75 (s), lr: 5.00e-04, train_MAE: 13.4831, train_RMSE: 21.9463, train_MAPE: 0.0898]
+2023-12-19 23:14:50,755 - easytorch-training - INFO - Start validation.
+2023-12-19 23:15:24,471 - easytorch-training - INFO - Result <val>: [val_time: 33.72 (s), val_MAE: 13.2351, val_RMSE: 22.0815, val_MAPE: 0.0897]
+2023-12-19 23:15:57,523 - easytorch-training - INFO - Result <test>: [test_time: 33.05 (s), test_MAE: 13.3261, test_RMSE: 22.2349, test_MAPE: 0.0925]
+2023-12-19 23:15:57,543 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_113.pt saved
+2023-12-19 23:15:57,544 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:16:51
+2023-12-19 23:15:57,544 - easytorch-training - INFO - Epoch 114 / 200
+2023-12-19 23:20:08,874 - easytorch-training - INFO - Result <train>: [train_time: 251.33 (s), lr: 5.00e-04, train_MAE: 13.4800, train_RMSE: 21.9444, train_MAPE: 0.0899]
+2023-12-19 23:20:08,875 - easytorch-training - INFO - Start validation.
+2023-12-19 23:20:42,888 - easytorch-training - INFO - Result <val>: [val_time: 34.01 (s), val_MAE: 13.2160, val_RMSE: 22.0118, val_MAPE: 0.0890]
+2023-12-19 23:21:16,352 - easytorch-training - INFO - Result <test>: [test_time: 33.46 (s), test_MAE: 13.2365, test_RMSE: 22.0355, test_MAPE: 0.0923]
+2023-12-19 23:21:16,379 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_114.pt saved
+2023-12-19 23:21:16,379 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:15:16
+2023-12-19 23:21:16,379 - easytorch-training - INFO - Epoch 115 / 200
+2023-12-19 23:25:27,901 - easytorch-training - INFO - Result <train>: [train_time: 251.52 (s), lr: 5.00e-04, train_MAE: 13.4790, train_RMSE: 21.9374, train_MAPE: 0.0899]
+2023-12-19 23:25:27,902 - easytorch-training - INFO - Start validation.
+2023-12-19 23:26:02,056 - easytorch-training - INFO - Result <val>: [val_time: 34.15 (s), val_MAE: 13.2331, val_RMSE: 22.0997, val_MAPE: 0.0888]
+2023-12-19 23:26:34,939 - easytorch-training - INFO - Result <test>: [test_time: 32.88 (s), test_MAE: 13.2796, test_RMSE: 22.1582, test_MAPE: 0.0926]
+2023-12-19 23:26:34,963 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_115.pt saved
+2023-12-19 23:26:34,963 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:13:42
+2023-12-19 23:26:34,963 - easytorch-training - INFO - Epoch 116 / 200
+2023-12-19 23:30:46,360 - easytorch-training - INFO - Result <train>: [train_time: 251.40 (s), lr: 5.00e-04, train_MAE: 13.4708, train_RMSE: 21.9172, train_MAPE: 0.0898]
+2023-12-19 23:30:46,361 - easytorch-training - INFO - Start validation.
+2023-12-19 23:31:19,759 - easytorch-training - INFO - Result <val>: [val_time: 33.40 (s), val_MAE: 13.2007, val_RMSE: 22.0253, val_MAPE: 0.0891]
+2023-12-19 23:31:53,406 - easytorch-training - INFO - Result <test>: [test_time: 33.65 (s), test_MAE: 13.2674, test_RMSE: 22.1285, test_MAPE: 0.0916]
+2023-12-19 23:31:53,429 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_116.pt saved
+2023-12-19 23:31:53,430 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:12:09
+2023-12-19 23:31:53,430 - easytorch-training - INFO - Epoch 117 / 200
+2023-12-19 23:36:04,586 - easytorch-training - INFO - Result <train>: [train_time: 251.16 (s), lr: 5.00e-04, train_MAE: 13.4762, train_RMSE: 21.9331, train_MAPE: 0.0897]
+2023-12-19 23:36:04,587 - easytorch-training - INFO - Start validation.
+2023-12-19 23:36:38,562 - easytorch-training - INFO - Result <val>: [val_time: 33.97 (s), val_MAE: 13.1797, val_RMSE: 21.9776, val_MAPE: 0.0894]
+2023-12-19 23:37:12,206 - easytorch-training - INFO - Result <test>: [test_time: 33.64 (s), test_MAE: 13.2769, test_RMSE: 22.2077, test_MAPE: 0.0922]
+2023-12-19 23:37:12,231 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_117.pt saved
+2023-12-19 23:37:12,232 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:10:39
+2023-12-19 23:37:12,232 - easytorch-training - INFO - Epoch 118 / 200
+2023-12-19 23:41:23,947 - easytorch-training - INFO - Result <train>: [train_time: 251.71 (s), lr: 5.00e-04, train_MAE: 13.4859, train_RMSE: 21.9503, train_MAPE: 0.0898]
+2023-12-19 23:41:23,948 - easytorch-training - INFO - Start validation.
+2023-12-19 23:41:58,490 - easytorch-training - INFO - Result <val>: [val_time: 34.54 (s), val_MAE: 13.2632, val_RMSE: 22.0261, val_MAPE: 0.0933]
+2023-12-19 23:42:32,117 - easytorch-training - INFO - Result <test>: [test_time: 33.63 (s), test_MAE: 13.3645, test_RMSE: 22.1791, test_MAPE: 0.0950]
+2023-12-19 23:42:32,141 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_118.pt saved
+2023-12-19 23:42:32,141 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:09:12
+2023-12-19 23:42:32,141 - easytorch-training - INFO - Epoch 119 / 200
+2023-12-19 23:46:43,868 - easytorch-training - INFO - Result <train>: [train_time: 251.73 (s), lr: 5.00e-04, train_MAE: 13.4681, train_RMSE: 21.9212, train_MAPE: 0.0899]
+2023-12-19 23:46:43,869 - easytorch-training - INFO - Start validation.
+2023-12-19 23:47:17,170 - easytorch-training - INFO - Result <val>: [val_time: 33.30 (s), val_MAE: 13.2443, val_RMSE: 22.0718, val_MAPE: 0.0922]
+2023-12-19 23:47:50,961 - easytorch-training - INFO - Result <test>: [test_time: 33.79 (s), test_MAE: 13.3244, test_RMSE: 22.2102, test_MAPE: 0.0938]
+2023-12-19 23:47:50,984 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_119.pt saved
+2023-12-19 23:47:50,985 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:07:45
+2023-12-19 23:47:50,985 - easytorch-training - INFO - Epoch 120 / 200
+2023-12-19 23:52:02,167 - easytorch-training - INFO - Result <train>: [train_time: 251.18 (s), lr: 5.00e-04, train_MAE: 13.4708, train_RMSE: 21.9307, train_MAPE: 0.0897]
+2023-12-19 23:52:02,168 - easytorch-training - INFO - Start validation.
+2023-12-19 23:52:35,605 - easytorch-training - INFO - Result <val>: [val_time: 33.44 (s), val_MAE: 13.2301, val_RMSE: 22.0341, val_MAPE: 0.0899]
+2023-12-19 23:53:09,641 - easytorch-training - INFO - Result <test>: [test_time: 34.03 (s), test_MAE: 13.3280, test_RMSE: 22.1755, test_MAPE: 0.0923]
+2023-12-19 23:53:09,662 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_120.pt saved
+2023-12-19 23:53:09,669 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:06:19
+2023-12-19 23:53:09,669 - easytorch-training - INFO - Epoch 121 / 200
+2023-12-19 23:57:22,201 - easytorch-training - INFO - Result <train>: [train_time: 252.53 (s), lr: 5.00e-04, train_MAE: 13.4793, train_RMSE: 21.9421, train_MAPE: 0.0897]
+2023-12-19 23:57:22,203 - easytorch-training - INFO - Start validation.
+2023-12-19 23:57:55,329 - easytorch-training - INFO - Result <val>: [val_time: 33.13 (s), val_MAE: 13.2393, val_RMSE: 22.0959, val_MAPE: 0.0905]
+2023-12-19 23:58:29,143 - easytorch-training - INFO - Result <test>: [test_time: 33.81 (s), test_MAE: 13.2968, test_RMSE: 22.1759, test_MAPE: 0.0927]
+2023-12-19 23:58:29,164 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_121.pt saved
+2023-12-19 23:58:29,164 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:04:56
+2023-12-19 23:58:29,164 - easytorch-training - INFO - Epoch 122 / 200
+2023-12-20 00:02:40,398 - easytorch-training - INFO - Result <train>: [train_time: 251.23 (s), lr: 5.00e-04, train_MAE: 13.4665, train_RMSE: 21.9196, train_MAPE: 0.0899]
+2023-12-20 00:02:40,399 - easytorch-training - INFO - Start validation.
+2023-12-20 00:03:14,446 - easytorch-training - INFO - Result <val>: [val_time: 34.05 (s), val_MAE: 13.1843, val_RMSE: 22.0381, val_MAPE: 0.0886]
+2023-12-20 00:03:48,154 - easytorch-training - INFO - Result <test>: [test_time: 33.71 (s), test_MAE: 13.2426, test_RMSE: 22.1164, test_MAPE: 0.0920]
+2023-12-20 00:03:48,176 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_122.pt saved
+2023-12-20 00:03:48,176 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:03:33
+2023-12-20 00:03:48,176 - easytorch-training - INFO - Epoch 123 / 200
+2023-12-20 00:08:01,148 - easytorch-training - INFO - Result <train>: [train_time: 252.97 (s), lr: 5.00e-04, train_MAE: 13.4674, train_RMSE: 21.9126, train_MAPE: 0.0897]
+2023-12-20 00:08:01,149 - easytorch-training - INFO - Start validation.
+2023-12-20 00:08:34,504 - easytorch-training - INFO - Result <val>: [val_time: 33.35 (s), val_MAE: 13.1805, val_RMSE: 22.0196, val_MAPE: 0.0889]
+2023-12-20 00:09:08,803 - easytorch-training - INFO - Result <test>: [test_time: 34.30 (s), test_MAE: 13.2752, test_RMSE: 22.1767, test_MAPE: 0.0926]
+2023-12-20 00:09:08,827 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_123.pt saved
+2023-12-20 00:09:08,827 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:02:14
+2023-12-20 00:09:08,827 - easytorch-training - INFO - Epoch 124 / 200
+2023-12-20 00:13:21,123 - easytorch-training - INFO - Result <train>: [train_time: 252.30 (s), lr: 5.00e-04, train_MAE: 13.4670, train_RMSE: 21.9149, train_MAPE: 0.0897]
+2023-12-20 00:13:21,124 - easytorch-training - INFO - Start validation.
+2023-12-20 00:13:54,648 - easytorch-training - INFO - Result <val>: [val_time: 33.52 (s), val_MAE: 13.2216, val_RMSE: 22.0613, val_MAPE: 0.0898]
+2023-12-20 00:14:27,782 - easytorch-training - INFO - Result <test>: [test_time: 33.13 (s), test_MAE: 13.2404, test_RMSE: 22.0767, test_MAPE: 0.0918]
+2023-12-20 00:14:27,803 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_124.pt saved
+2023-12-20 00:14:27,803 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 08:00:54
+2023-12-20 00:14:27,803 - easytorch-training - INFO - Epoch 125 / 200
+2023-12-20 00:18:38,574 - easytorch-training - INFO - Result <train>: [train_time: 250.77 (s), lr: 5.00e-04, train_MAE: 13.4832, train_RMSE: 21.9423, train_MAPE: 0.0897]
+2023-12-20 00:18:38,576 - easytorch-training - INFO - Start validation.
+2023-12-20 00:19:11,822 - easytorch-training - INFO - Result <val>: [val_time: 33.25 (s), val_MAE: 13.2254, val_RMSE: 22.0312, val_MAPE: 0.0900]
+2023-12-20 00:19:44,971 - easytorch-training - INFO - Result <test>: [test_time: 33.15 (s), test_MAE: 13.3144, test_RMSE: 22.1713, test_MAPE: 0.0934]
+2023-12-20 00:19:44,992 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_125.pt saved
+2023-12-20 00:19:44,992 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:59:33
+2023-12-20 00:19:44,992 - easytorch-training - INFO - Epoch 126 / 200
+2023-12-20 00:23:56,494 - easytorch-training - INFO - Result <train>: [train_time: 251.50 (s), lr: 5.00e-04, train_MAE: 13.4697, train_RMSE: 21.9177, train_MAPE: 0.0896]
+2023-12-20 00:23:56,495 - easytorch-training - INFO - Start validation.
+2023-12-20 00:24:30,343 - easytorch-training - INFO - Result <val>: [val_time: 33.85 (s), val_MAE: 13.2654, val_RMSE: 22.1614, val_MAPE: 0.0884]
+2023-12-20 00:25:03,577 - easytorch-training - INFO - Result <test>: [test_time: 33.23 (s), test_MAE: 13.3153, test_RMSE: 22.2093, test_MAPE: 0.0921]
+2023-12-20 00:25:03,599 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_126.pt saved
+2023-12-20 00:25:03,599 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:58:14
+2023-12-20 00:25:03,599 - easytorch-training - INFO - Epoch 127 / 200
+2023-12-20 00:29:14,262 - easytorch-training - INFO - Result <train>: [train_time: 250.66 (s), lr: 5.00e-04, train_MAE: 13.4726, train_RMSE: 21.9305, train_MAPE: 0.0897]
+2023-12-20 00:29:14,263 - easytorch-training - INFO - Start validation.
+2023-12-20 00:29:47,973 - easytorch-training - INFO - Result <val>: [val_time: 33.71 (s), val_MAE: 13.2105, val_RMSE: 22.0365, val_MAPE: 0.0896]
+2023-12-20 00:30:20,995 - easytorch-training - INFO - Result <test>: [test_time: 33.02 (s), test_MAE: 13.3171, test_RMSE: 22.1980, test_MAPE: 0.0929]
+2023-12-20 00:30:21,021 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_127.pt saved
+2023-12-20 00:30:21,021 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:56:56
+2023-12-20 00:30:21,022 - easytorch-training - INFO - Epoch 128 / 200
+2023-12-20 00:34:32,303 - easytorch-training - INFO - Result <train>: [train_time: 251.28 (s), lr: 5.00e-04, train_MAE: 13.4755, train_RMSE: 21.9283, train_MAPE: 0.0896]
+2023-12-20 00:34:32,304 - easytorch-training - INFO - Start validation.
+2023-12-20 00:35:06,487 - easytorch-training - INFO - Result <val>: [val_time: 34.18 (s), val_MAE: 13.1867, val_RMSE: 21.9943, val_MAPE: 0.0894]
+2023-12-20 00:35:39,461 - easytorch-training - INFO - Result <test>: [test_time: 32.97 (s), test_MAE: 13.3277, test_RMSE: 22.2245, test_MAPE: 0.0921]
+2023-12-20 00:35:39,485 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_128.pt saved
+2023-12-20 00:35:39,485 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:55:40
+2023-12-20 00:35:39,485 - easytorch-training - INFO - Epoch 129 / 200
+2023-12-20 00:39:50,275 - easytorch-training - INFO - Result <train>: [train_time: 250.79 (s), lr: 5.00e-04, train_MAE: 13.4559, train_RMSE: 21.8987, train_MAPE: 0.0896]
+2023-12-20 00:39:50,277 - easytorch-training - INFO - Start validation.
+2023-12-20 00:40:24,191 - easytorch-training - INFO - Result <val>: [val_time: 33.91 (s), val_MAE: 13.1937, val_RMSE: 22.0248, val_MAPE: 0.0899]
+2023-12-20 00:40:57,860 - easytorch-training - INFO - Result <test>: [test_time: 33.67 (s), test_MAE: 13.2747, test_RMSE: 22.1561, test_MAPE: 0.0924]
+2023-12-20 00:40:57,885 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_129.pt saved
+2023-12-20 00:40:57,885 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:54:25
+2023-12-20 00:40:57,885 - easytorch-training - INFO - Epoch 130 / 200
+2023-12-20 00:45:09,223 - easytorch-training - INFO - Result <train>: [train_time: 251.34 (s), lr: 5.00e-04, train_MAE: 13.4552, train_RMSE: 21.9046, train_MAPE: 0.0896]
+2023-12-20 00:45:09,224 - easytorch-training - INFO - Start validation.
+2023-12-20 00:45:42,846 - easytorch-training - INFO - Result <val>: [val_time: 33.62 (s), val_MAE: 13.3419, val_RMSE: 22.1480, val_MAPE: 0.0940]
+2023-12-20 00:46:15,100 - easytorch-training - INFO - Result <test>: [test_time: 32.25 (s), test_MAE: 13.4044, test_RMSE: 22.2536, test_MAPE: 0.0947]
+2023-12-20 00:46:15,124 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_130.pt saved
+2023-12-20 00:46:15,131 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:53:09
+2023-12-20 00:46:15,131 - easytorch-training - INFO - Epoch 131 / 200
+2023-12-20 00:50:26,251 - easytorch-training - INFO - Result <train>: [train_time: 251.12 (s), lr: 5.00e-04, train_MAE: 13.4549, train_RMSE: 21.8985, train_MAPE: 0.0897]
+2023-12-20 00:50:26,253 - easytorch-training - INFO - Start validation.
+2023-12-20 00:50:59,497 - easytorch-training - INFO - Result <val>: [val_time: 33.24 (s), val_MAE: 13.2645, val_RMSE: 22.0292, val_MAPE: 0.0918]
+2023-12-20 00:51:33,490 - easytorch-training - INFO - Result <test>: [test_time: 33.99 (s), test_MAE: 13.3472, test_RMSE: 22.2192, test_MAPE: 0.0943]
+2023-12-20 00:51:33,520 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_131.pt saved
+2023-12-20 00:51:33,520 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:51:57
+2023-12-20 00:51:33,520 - easytorch-training - INFO - Epoch 132 / 200
+2023-12-20 00:56:23,336 - easytorch-training - INFO - Result <train>: [train_time: 289.82 (s), lr: 5.00e-04, train_MAE: 13.4602, train_RMSE: 21.9102, train_MAPE: 0.0896]
+2023-12-20 00:56:23,337 - easytorch-training - INFO - Start validation.
+2023-12-20 00:56:57,071 - easytorch-training - INFO - Result <val>: [val_time: 33.73 (s), val_MAE: 13.1872, val_RMSE: 22.0714, val_MAPE: 0.0888]
+2023-12-20 00:57:30,864 - easytorch-training - INFO - Result <test>: [test_time: 33.79 (s), test_MAE: 13.3024, test_RMSE: 22.2373, test_MAPE: 0.0917]
+2023-12-20 00:57:30,886 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_132.pt saved
+2023-12-20 00:57:30,886 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:51:44
+2023-12-20 00:57:30,887 - easytorch-training - INFO - Epoch 133 / 200
+2023-12-20 01:01:43,101 - easytorch-training - INFO - Result <train>: [train_time: 252.21 (s), lr: 5.00e-04, train_MAE: 13.4426, train_RMSE: 21.8825, train_MAPE: 0.0896]
+2023-12-20 01:01:43,103 - easytorch-training - INFO - Start validation.
+2023-12-20 01:02:16,311 - easytorch-training - INFO - Result <val>: [val_time: 33.21 (s), val_MAE: 13.2211, val_RMSE: 22.0308, val_MAPE: 0.0886]
+2023-12-20 01:02:49,877 - easytorch-training - INFO - Result <test>: [test_time: 33.57 (s), test_MAE: 13.2628, test_RMSE: 22.1455, test_MAPE: 0.0911]
+2023-12-20 01:02:49,902 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_133.pt saved
+2023-12-20 01:02:49,903 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:50:34
+2023-12-20 01:02:49,903 - easytorch-training - INFO - Epoch 134 / 200
+2023-12-20 01:07:01,296 - easytorch-training - INFO - Result <train>: [train_time: 251.39 (s), lr: 5.00e-04, train_MAE: 13.4500, train_RMSE: 21.8824, train_MAPE: 0.0896]
+2023-12-20 01:07:01,297 - easytorch-training - INFO - Start validation.
+2023-12-20 01:07:34,502 - easytorch-training - INFO - Result <val>: [val_time: 33.20 (s), val_MAE: 13.3006, val_RMSE: 22.1694, val_MAPE: 0.0915]
+2023-12-20 01:08:08,096 - easytorch-training - INFO - Result <test>: [test_time: 33.59 (s), test_MAE: 13.3144, test_RMSE: 22.1892, test_MAPE: 0.0947]
+2023-12-20 01:08:08,117 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_134.pt saved
+2023-12-20 01:08:08,118 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:49:24
+2023-12-20 01:08:08,118 - easytorch-training - INFO - Epoch 135 / 200
+2023-12-20 01:12:19,788 - easytorch-training - INFO - Result <train>: [train_time: 251.67 (s), lr: 5.00e-04, train_MAE: 13.4541, train_RMSE: 21.8995, train_MAPE: 0.0896]
+2023-12-20 01:12:19,789 - easytorch-training - INFO - Start validation.
+2023-12-20 01:12:52,989 - easytorch-training - INFO - Result <val>: [val_time: 33.20 (s), val_MAE: 13.2316, val_RMSE: 22.1099, val_MAPE: 0.0917]
+2023-12-20 01:13:27,150 - easytorch-training - INFO - Result <test>: [test_time: 34.16 (s), test_MAE: 13.2689, test_RMSE: 22.1396, test_MAPE: 0.0938]
+2023-12-20 01:13:27,171 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_135.pt saved
+2023-12-20 01:13:27,171 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:48:17
+2023-12-20 01:13:27,171 - easytorch-training - INFO - Epoch 136 / 200
+2023-12-20 01:21:09,877 - easytorch-training - INFO - Result <train>: [train_time: 462.71 (s), lr: 5.00e-04, train_MAE: 13.4615, train_RMSE: 21.9073, train_MAPE: 0.0896]
+2023-12-20 01:21:09,878 - easytorch-training - INFO - Start validation.
+2023-12-20 01:22:21,002 - easytorch-training - INFO - Result <val>: [val_time: 71.12 (s), val_MAE: 13.2010, val_RMSE: 22.0359, val_MAPE: 0.0891]
+2023-12-20 01:23:32,406 - easytorch-training - INFO - Result <test>: [test_time: 71.40 (s), test_MAE: 13.3060, test_RMSE: 22.2275, test_MAPE: 0.0924]
+2023-12-20 01:23:32,428 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_136.pt saved
+2023-12-20 01:23:32,428 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:54:11
+2023-12-20 01:23:32,429 - easytorch-training - INFO - Epoch 137 / 200
+2023-12-20 01:30:17,411 - easytorch-training - INFO - Result <train>: [train_time: 404.98 (s), lr: 5.00e-04, train_MAE: 13.4634, train_RMSE: 21.9127, train_MAPE: 0.0896]
+2023-12-20 01:30:17,413 - easytorch-training - INFO - Start validation.
+2023-12-20 01:30:51,128 - easytorch-training - INFO - Result <val>: [val_time: 33.71 (s), val_MAE: 13.1809, val_RMSE: 22.0145, val_MAPE: 0.0889]
+2023-12-20 01:31:24,557 - easytorch-training - INFO - Result <test>: [test_time: 33.43 (s), test_MAE: 13.2543, test_RMSE: 22.1350, test_MAPE: 0.0918]
+2023-12-20 01:31:24,582 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_137.pt saved
+2023-12-20 01:31:24,582 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:56:45
+2023-12-20 01:31:24,582 - easytorch-training - INFO - Epoch 138 / 200
+2023-12-20 01:35:36,302 - easytorch-training - INFO - Result <train>: [train_time: 251.72 (s), lr: 5.00e-04, train_MAE: 13.4515, train_RMSE: 21.8935, train_MAPE: 0.0896]
+2023-12-20 01:35:36,302 - easytorch-training - INFO - Start validation.
+2023-12-20 01:36:10,153 - easytorch-training - INFO - Result <val>: [val_time: 33.85 (s), val_MAE: 13.1460, val_RMSE: 21.9971, val_MAPE: 0.0883]
+2023-12-20 01:36:10,182 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-20 01:36:43,244 - easytorch-training - INFO - Result <test>: [test_time: 33.06 (s), test_MAE: 13.2327, test_RMSE: 22.0985, test_MAPE: 0.0918]
+2023-12-20 01:36:43,265 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_138.pt saved
+2023-12-20 01:36:43,266 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:55:35
+2023-12-20 01:36:43,266 - easytorch-training - INFO - Epoch 139 / 200
+2023-12-20 01:40:55,139 - easytorch-training - INFO - Result <train>: [train_time: 251.87 (s), lr: 5.00e-04, train_MAE: 13.4449, train_RMSE: 21.8777, train_MAPE: 0.0895]
+2023-12-20 01:40:55,140 - easytorch-training - INFO - Start validation.
+2023-12-20 01:41:28,984 - easytorch-training - INFO - Result <val>: [val_time: 33.84 (s), val_MAE: 13.2030, val_RMSE: 22.0134, val_MAPE: 0.0925]
+2023-12-20 01:42:02,038 - easytorch-training - INFO - Result <test>: [test_time: 33.05 (s), test_MAE: 13.3274, test_RMSE: 22.2203, test_MAPE: 0.0942]
+2023-12-20 01:42:02,059 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_139.pt saved
+2023-12-20 01:42:02,059 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:54:27
+2023-12-20 01:42:02,059 - easytorch-training - INFO - Epoch 140 / 200
+2023-12-20 01:46:12,948 - easytorch-training - INFO - Result <train>: [train_time: 250.89 (s), lr: 5.00e-04, train_MAE: 13.4381, train_RMSE: 21.8768, train_MAPE: 0.0896]
+2023-12-20 01:46:12,949 - easytorch-training - INFO - Start validation.
+2023-12-20 01:46:45,967 - easytorch-training - INFO - Result <val>: [val_time: 33.02 (s), val_MAE: 13.1251, val_RMSE: 21.9121, val_MAPE: 0.0899]
+2023-12-20 01:46:46,004 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_best_val_MAE.pt saved
+2023-12-20 01:47:18,792 - easytorch-training - INFO - Result <test>: [test_time: 32.79 (s), test_MAE: 13.2934, test_RMSE: 22.2115, test_MAPE: 0.0928]
+2023-12-20 01:47:18,816 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_140.pt saved
+2023-12-20 01:47:18,824 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:53:16
+2023-12-20 01:47:18,824 - easytorch-training - INFO - Epoch 141 / 200
+2023-12-20 01:51:29,310 - easytorch-training - INFO - Result <train>: [train_time: 250.49 (s), lr: 5.00e-04, train_MAE: 13.4375, train_RMSE: 21.8731, train_MAPE: 0.0896]
+2023-12-20 01:51:29,311 - easytorch-training - INFO - Start validation.
+2023-12-20 01:52:01,808 - easytorch-training - INFO - Result <val>: [val_time: 32.50 (s), val_MAE: 13.2569, val_RMSE: 22.0670, val_MAPE: 0.0896]
+2023-12-20 01:52:35,463 - easytorch-training - INFO - Result <test>: [test_time: 33.65 (s), test_MAE: 13.3051, test_RMSE: 22.2070, test_MAPE: 0.0929]
+2023-12-20 01:52:35,486 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_141.pt saved
+2023-12-20 01:52:35,486 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:52:06
+2023-12-20 01:52:35,486 - easytorch-training - INFO - Epoch 142 / 200
+2023-12-20 01:56:46,639 - easytorch-training - INFO - Result <train>: [train_time: 251.15 (s), lr: 5.00e-04, train_MAE: 13.4346, train_RMSE: 21.8656, train_MAPE: 0.0895]
+2023-12-20 01:56:46,640 - easytorch-training - INFO - Start validation.
+2023-12-20 01:57:19,451 - easytorch-training - INFO - Result <val>: [val_time: 32.81 (s), val_MAE: 13.2296, val_RMSE: 22.0949, val_MAPE: 0.0899]
+2023-12-20 01:57:53,178 - easytorch-training - INFO - Result <test>: [test_time: 33.73 (s), test_MAE: 13.3506, test_RMSE: 22.3127, test_MAPE: 0.0936]
+2023-12-20 01:57:53,201 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_142.pt saved
+2023-12-20 01:57:53,201 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:50:58
+2023-12-20 01:57:53,201 - easytorch-training - INFO - Epoch 143 / 200
+2023-12-20 02:02:04,474 - easytorch-training - INFO - Result <train>: [train_time: 251.27 (s), lr: 5.00e-04, train_MAE: 13.4246, train_RMSE: 21.8524, train_MAPE: 0.0896]
+2023-12-20 02:02:04,475 - easytorch-training - INFO - Start validation.
+2023-12-20 02:02:37,122 - easytorch-training - INFO - Result <val>: [val_time: 32.65 (s), val_MAE: 13.2149, val_RMSE: 22.0539, val_MAPE: 0.0894]
+2023-12-20 02:03:09,772 - easytorch-training - INFO - Result <test>: [test_time: 32.65 (s), test_MAE: 13.2494, test_RMSE: 22.1320, test_MAPE: 0.0917]
+2023-12-20 02:03:09,797 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_143.pt saved
+2023-12-20 02:03:09,798 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:49:50
+2023-12-20 02:03:09,798 - easytorch-training - INFO - Epoch 144 / 200
+2023-12-20 02:07:21,087 - easytorch-training - INFO - Result <train>: [train_time: 251.29 (s), lr: 5.00e-04, train_MAE: 13.4459, train_RMSE: 21.8856, train_MAPE: 0.0894]
+2023-12-20 02:07:21,088 - easytorch-training - INFO - Start validation.
+2023-12-20 02:07:54,228 - easytorch-training - INFO - Result <val>: [val_time: 33.14 (s), val_MAE: 13.2234, val_RMSE: 22.0460, val_MAPE: 0.0907]
+2023-12-20 02:08:26,763 - easytorch-training - INFO - Result <test>: [test_time: 32.53 (s), test_MAE: 13.2721, test_RMSE: 22.1566, test_MAPE: 0.0937]
+2023-12-20 02:08:26,786 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_144.pt saved
+2023-12-20 02:08:26,786 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:48:44
+2023-12-20 02:08:26,786 - easytorch-training - INFO - Epoch 145 / 200
+2023-12-20 02:12:36,620 - easytorch-training - INFO - Result <train>: [train_time: 249.83 (s), lr: 5.00e-04, train_MAE: 13.4388, train_RMSE: 21.8764, train_MAPE: 0.0895]
+2023-12-20 02:12:36,621 - easytorch-training - INFO - Start validation.
+2023-12-20 02:13:09,626 - easytorch-training - INFO - Result <val>: [val_time: 33.00 (s), val_MAE: 13.2202, val_RMSE: 22.0625, val_MAPE: 0.0897]
+2023-12-20 02:13:43,359 - easytorch-training - INFO - Result <test>: [test_time: 33.73 (s), test_MAE: 13.2555, test_RMSE: 22.1279, test_MAPE: 0.0931]
+2023-12-20 02:13:43,383 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_145.pt saved
+2023-12-20 02:13:43,383 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:47:37
+2023-12-20 02:13:43,384 - easytorch-training - INFO - Epoch 146 / 200
+2023-12-20 02:17:53,874 - easytorch-training - INFO - Result <train>: [train_time: 250.49 (s), lr: 5.00e-04, train_MAE: 13.4289, train_RMSE: 21.8551, train_MAPE: 0.0896]
+2023-12-20 02:17:53,876 - easytorch-training - INFO - Start validation.
+2023-12-20 02:18:26,563 - easytorch-training - INFO - Result <val>: [val_time: 32.69 (s), val_MAE: 13.2375, val_RMSE: 22.0521, val_MAPE: 0.0905]
+2023-12-20 02:18:59,130 - easytorch-training - INFO - Result <test>: [test_time: 32.57 (s), test_MAE: 13.3585, test_RMSE: 22.2918, test_MAPE: 0.0935]
+2023-12-20 02:18:59,152 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_146.pt saved
+2023-12-20 02:18:59,152 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:46:31
+2023-12-20 02:18:59,152 - easytorch-training - INFO - Epoch 147 / 200
+2023-12-20 02:23:09,277 - easytorch-training - INFO - Result <train>: [train_time: 250.12 (s), lr: 5.00e-04, train_MAE: 13.4329, train_RMSE: 21.8622, train_MAPE: 0.0894]
+2023-12-20 02:23:09,278 - easytorch-training - INFO - Start validation.
+2023-12-20 02:23:43,553 - easytorch-training - INFO - Result <val>: [val_time: 34.28 (s), val_MAE: 13.1826, val_RMSE: 22.0058, val_MAPE: 0.0900]
+2023-12-20 02:24:16,741 - easytorch-training - INFO - Result <test>: [test_time: 33.19 (s), test_MAE: 13.2720, test_RMSE: 22.1808, test_MAPE: 0.0918]
+2023-12-20 02:24:16,762 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_147.pt saved
+2023-12-20 02:24:16,762 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:45:28
+2023-12-20 02:24:16,762 - easytorch-training - INFO - Epoch 148 / 200
+2023-12-20 02:28:27,757 - easytorch-training - INFO - Result <train>: [train_time: 250.99 (s), lr: 5.00e-04, train_MAE: 13.4229, train_RMSE: 21.8457, train_MAPE: 0.0896]
+2023-12-20 02:28:27,758 - easytorch-training - INFO - Start validation.
+2023-12-20 02:28:59,943 - easytorch-training - INFO - Result <val>: [val_time: 32.18 (s), val_MAE: 13.2788, val_RMSE: 22.1647, val_MAPE: 0.0905]
+2023-12-20 02:29:32,853 - easytorch-training - INFO - Result <test>: [test_time: 32.91 (s), test_MAE: 13.2793, test_RMSE: 22.1881, test_MAPE: 0.0935]
+2023-12-20 02:29:32,878 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_148.pt saved
+2023-12-20 02:29:32,878 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:44:24
+2023-12-20 02:29:32,878 - easytorch-training - INFO - Epoch 149 / 200
+2023-12-20 02:33:43,951 - easytorch-training - INFO - Result <train>: [train_time: 251.07 (s), lr: 5.00e-04, train_MAE: 13.4511, train_RMSE: 21.8955, train_MAPE: 0.0895]
+2023-12-20 02:33:43,952 - easytorch-training - INFO - Start validation.
+2023-12-20 02:34:16,806 - easytorch-training - INFO - Result <val>: [val_time: 32.85 (s), val_MAE: 13.2854, val_RMSE: 22.1110, val_MAPE: 0.0966]
+2023-12-20 02:34:49,525 - easytorch-training - INFO - Result <test>: [test_time: 32.72 (s), test_MAE: 13.3388, test_RMSE: 22.2220, test_MAPE: 0.0984]
+2023-12-20 02:34:49,548 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_149.pt saved
+2023-12-20 02:34:49,549 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:43:21
+2023-12-20 02:34:49,549 - easytorch-training - INFO - Epoch 150 / 200
+2023-12-20 02:38:59,617 - easytorch-training - INFO - Result <train>: [train_time: 250.07 (s), lr: 5.00e-04, train_MAE: 13.4362, train_RMSE: 21.8707, train_MAPE: 0.0896]
+2023-12-20 02:38:59,618 - easytorch-training - INFO - Start validation.
+2023-12-20 02:39:32,354 - easytorch-training - INFO - Result <val>: [val_time: 32.74 (s), val_MAE: 13.2010, val_RMSE: 22.0778, val_MAPE: 0.0899]
+2023-12-20 02:40:04,872 - easytorch-training - INFO - Result <test>: [test_time: 32.52 (s), test_MAE: 13.2863, test_RMSE: 22.2160, test_MAPE: 0.0933]
+2023-12-20 02:40:04,899 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_150.pt saved
+2023-12-20 02:40:04,909 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:42:18
+2023-12-20 02:40:04,909 - easytorch-training - INFO - Epoch 151 / 200
+2023-12-20 02:44:14,161 - easytorch-training - INFO - Result <train>: [train_time: 249.25 (s), lr: 5.00e-04, train_MAE: 13.4365, train_RMSE: 21.8741, train_MAPE: 0.0895]
+2023-12-20 02:44:14,162 - easytorch-training - INFO - Start validation.
+2023-12-20 02:44:47,771 - easytorch-training - INFO - Result <val>: [val_time: 33.61 (s), val_MAE: 13.2528, val_RMSE: 22.0787, val_MAPE: 0.0941]
+2023-12-20 02:45:20,630 - easytorch-training - INFO - Result <test>: [test_time: 32.86 (s), test_MAE: 13.3295, test_RMSE: 22.1976, test_MAPE: 0.0953]
+2023-12-20 02:45:20,653 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_151.pt saved
+2023-12-20 02:45:20,653 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:41:16
+2023-12-20 02:45:20,653 - easytorch-training - INFO - Epoch 152 / 200
+2023-12-20 02:49:31,324 - easytorch-training - INFO - Result <train>: [train_time: 250.67 (s), lr: 5.00e-04, train_MAE: 13.4335, train_RMSE: 21.8688, train_MAPE: 0.0894]
+2023-12-20 02:49:31,325 - easytorch-training - INFO - Start validation.
+2023-12-20 02:50:04,671 - easytorch-training - INFO - Result <val>: [val_time: 33.35 (s), val_MAE: 13.2227, val_RMSE: 22.0428, val_MAPE: 0.0912]
+2023-12-20 02:50:37,943 - easytorch-training - INFO - Result <test>: [test_time: 33.27 (s), test_MAE: 13.3159, test_RMSE: 22.2107, test_MAPE: 0.0933]
+2023-12-20 02:50:37,964 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_152.pt saved
+2023-12-20 02:50:37,964 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:40:16
+2023-12-20 02:50:37,964 - easytorch-training - INFO - Epoch 153 / 200
+2023-12-20 02:54:48,970 - easytorch-training - INFO - Result <train>: [train_time: 251.01 (s), lr: 5.00e-04, train_MAE: 13.4367, train_RMSE: 21.8694, train_MAPE: 0.0894]
+2023-12-20 02:54:48,971 - easytorch-training - INFO - Start validation.
+2023-12-20 02:55:22,045 - easytorch-training - INFO - Result <val>: [val_time: 33.07 (s), val_MAE: 13.2596, val_RMSE: 22.0616, val_MAPE: 0.0904]
+2023-12-20 02:55:55,553 - easytorch-training - INFO - Result <test>: [test_time: 33.51 (s), test_MAE: 13.3750, test_RMSE: 22.3049, test_MAPE: 0.0939]
+2023-12-20 02:55:55,574 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_153.pt saved
+2023-12-20 02:55:55,574 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:39:18
+2023-12-20 02:55:55,574 - easytorch-training - INFO - Epoch 154 / 200
+2023-12-20 03:00:06,409 - easytorch-training - INFO - Result <train>: [train_time: 250.83 (s), lr: 5.00e-04, train_MAE: 13.4246, train_RMSE: 21.8522, train_MAPE: 0.0894]
+2023-12-20 03:00:06,410 - easytorch-training - INFO - Start validation.
+2023-12-20 03:00:39,123 - easytorch-training - INFO - Result <val>: [val_time: 32.71 (s), val_MAE: 13.2098, val_RMSE: 22.0791, val_MAPE: 0.0945]
+2023-12-20 03:01:12,250 - easytorch-training - INFO - Result <test>: [test_time: 33.13 (s), test_MAE: 13.2590, test_RMSE: 22.0981, test_MAPE: 0.0960]
+2023-12-20 03:01:12,274 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_154.pt saved
+2023-12-20 03:01:12,274 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:38:20
+2023-12-20 03:01:12,274 - easytorch-training - INFO - Epoch 155 / 200
+2023-12-20 03:05:23,945 - easytorch-training - INFO - Result <train>: [train_time: 251.67 (s), lr: 5.00e-04, train_MAE: 13.4229, train_RMSE: 21.8392, train_MAPE: 0.0893]
+2023-12-20 03:05:23,946 - easytorch-training - INFO - Start validation.
+2023-12-20 03:05:56,591 - easytorch-training - INFO - Result <val>: [val_time: 32.64 (s), val_MAE: 13.2466, val_RMSE: 22.0484, val_MAPE: 0.0924]
+2023-12-20 03:06:29,401 - easytorch-training - INFO - Result <test>: [test_time: 32.81 (s), test_MAE: 13.3757, test_RMSE: 22.2597, test_MAPE: 0.0940]
+2023-12-20 03:06:29,424 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_155.pt saved
+2023-12-20 03:06:29,425 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:37:23
+2023-12-20 03:06:29,425 - easytorch-training - INFO - Epoch 156 / 200
+2023-12-20 03:10:39,749 - easytorch-training - INFO - Result <train>: [train_time: 250.32 (s), lr: 5.00e-04, train_MAE: 13.4267, train_RMSE: 21.8571, train_MAPE: 0.0893]
+2023-12-20 03:10:39,750 - easytorch-training - INFO - Start validation.
+2023-12-20 03:11:13,537 - easytorch-training - INFO - Result <val>: [val_time: 33.79 (s), val_MAE: 13.3163, val_RMSE: 22.1306, val_MAPE: 0.0950]
+2023-12-20 03:11:46,259 - easytorch-training - INFO - Result <test>: [test_time: 32.72 (s), test_MAE: 13.3668, test_RMSE: 22.2050, test_MAPE: 0.0970]
+2023-12-20 03:11:46,283 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_156.pt saved
+2023-12-20 03:11:46,283 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:36:26
+2023-12-20 03:11:46,283 - easytorch-training - INFO - Epoch 157 / 200
+2023-12-20 03:15:57,567 - easytorch-training - INFO - Result <train>: [train_time: 251.28 (s), lr: 5.00e-04, train_MAE: 13.4253, train_RMSE: 21.8534, train_MAPE: 0.0894]
+2023-12-20 03:15:57,568 - easytorch-training - INFO - Start validation.
+2023-12-20 03:16:30,867 - easytorch-training - INFO - Result <val>: [val_time: 33.30 (s), val_MAE: 13.3501, val_RMSE: 22.1886, val_MAPE: 0.0931]
+2023-12-20 03:17:03,765 - easytorch-training - INFO - Result <test>: [test_time: 32.90 (s), test_MAE: 13.3942, test_RMSE: 22.2374, test_MAPE: 0.0954]
+2023-12-20 03:17:03,786 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_157.pt saved
+2023-12-20 03:17:03,786 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:35:30
+2023-12-20 03:17:03,786 - easytorch-training - INFO - Epoch 158 / 200
+2023-12-20 03:21:15,031 - easytorch-training - INFO - Result <train>: [train_time: 251.24 (s), lr: 5.00e-04, train_MAE: 13.4233, train_RMSE: 21.8402, train_MAPE: 0.0894]
+2023-12-20 03:21:15,032 - easytorch-training - INFO - Start validation.
+2023-12-20 03:21:48,649 - easytorch-training - INFO - Result <val>: [val_time: 33.62 (s), val_MAE: 13.2633, val_RMSE: 22.0681, val_MAPE: 0.0931]
+2023-12-20 03:22:22,971 - easytorch-training - INFO - Result <test>: [test_time: 34.32 (s), test_MAE: 13.3524, test_RMSE: 22.2404, test_MAPE: 0.0950]
+2023-12-20 03:22:22,991 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_158.pt saved
+2023-12-20 03:22:22,991 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:34:38
+2023-12-20 03:22:22,991 - easytorch-training - INFO - Epoch 159 / 200
+2023-12-20 03:26:33,878 - easytorch-training - INFO - Result <train>: [train_time: 250.89 (s), lr: 5.00e-04, train_MAE: 13.4261, train_RMSE: 21.8485, train_MAPE: 0.0892]
+2023-12-20 03:26:33,879 - easytorch-training - INFO - Start validation.
+2023-12-20 03:27:06,722 - easytorch-training - INFO - Result <val>: [val_time: 32.84 (s), val_MAE: 13.3361, val_RMSE: 22.0961, val_MAPE: 0.0949]
+2023-12-20 03:27:39,348 - easytorch-training - INFO - Result <test>: [test_time: 32.62 (s), test_MAE: 13.3898, test_RMSE: 22.2435, test_MAPE: 0.0968]
+2023-12-20 03:27:39,370 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_159.pt saved
+2023-12-20 03:27:39,370 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:33:43
+2023-12-20 03:27:39,370 - easytorch-training - INFO - Epoch 160 / 200
+2023-12-20 03:31:49,673 - easytorch-training - INFO - Result <train>: [train_time: 250.30 (s), lr: 5.00e-04, train_MAE: 13.4174, train_RMSE: 21.8422, train_MAPE: 0.0894]
+2023-12-20 03:31:49,674 - easytorch-training - INFO - Start validation.
+2023-12-20 03:32:22,413 - easytorch-training - INFO - Result <val>: [val_time: 32.74 (s), val_MAE: 13.2699, val_RMSE: 22.1347, val_MAPE: 0.0925]
+2023-12-20 03:32:54,962 - easytorch-training - INFO - Result <test>: [test_time: 32.55 (s), test_MAE: 13.3313, test_RMSE: 22.2414, test_MAPE: 0.0939]
+2023-12-20 03:32:54,984 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_160.pt saved
+2023-12-20 03:32:54,992 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:32:47
+2023-12-20 03:32:54,992 - easytorch-training - INFO - Epoch 161 / 200
+2023-12-20 03:37:06,940 - easytorch-training - INFO - Result <train>: [train_time: 251.95 (s), lr: 5.00e-04, train_MAE: 13.4336, train_RMSE: 21.8620, train_MAPE: 0.0894]
+2023-12-20 03:37:06,941 - easytorch-training - INFO - Start validation.
+2023-12-20 03:37:40,087 - easytorch-training - INFO - Result <val>: [val_time: 33.15 (s), val_MAE: 13.2355, val_RMSE: 22.0853, val_MAPE: 0.0906]
+2023-12-20 03:38:12,753 - easytorch-training - INFO - Result <test>: [test_time: 32.67 (s), test_MAE: 13.2892, test_RMSE: 22.1795, test_MAPE: 0.0939]
+2023-12-20 03:38:12,775 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_161.pt saved
+2023-12-20 03:38:12,775 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:31:55
+2023-12-20 03:38:12,775 - easytorch-training - INFO - Epoch 162 / 200
+2023-12-20 03:42:23,731 - easytorch-training - INFO - Result <train>: [train_time: 250.96 (s), lr: 5.00e-04, train_MAE: 13.4231, train_RMSE: 21.8477, train_MAPE: 0.0893]
+2023-12-20 03:42:23,732 - easytorch-training - INFO - Start validation.
+2023-12-20 03:42:57,280 - easytorch-training - INFO - Result <val>: [val_time: 33.55 (s), val_MAE: 13.1909, val_RMSE: 22.0269, val_MAPE: 0.0899]
+2023-12-20 03:43:30,767 - easytorch-training - INFO - Result <test>: [test_time: 33.49 (s), test_MAE: 13.2835, test_RMSE: 22.1858, test_MAPE: 0.0925]
+2023-12-20 03:43:30,788 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_162.pt saved
+2023-12-20 03:43:30,788 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:31:04
+2023-12-20 03:43:30,788 - easytorch-training - INFO - Epoch 163 / 200
+2023-12-20 03:47:40,717 - easytorch-training - INFO - Result <train>: [train_time: 249.93 (s), lr: 5.00e-04, train_MAE: 13.4103, train_RMSE: 21.8237, train_MAPE: 0.0892]
+2023-12-20 03:47:40,718 - easytorch-training - INFO - Start validation.
+2023-12-20 03:48:13,004 - easytorch-training - INFO - Result <val>: [val_time: 32.29 (s), val_MAE: 13.2506, val_RMSE: 22.0854, val_MAPE: 0.0894]
+2023-12-20 03:48:45,765 - easytorch-training - INFO - Result <test>: [test_time: 32.76 (s), test_MAE: 13.3214, test_RMSE: 22.2483, test_MAPE: 0.0926]
+2023-12-20 03:48:45,786 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_163.pt saved
+2023-12-20 03:48:45,786 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:30:09
+2023-12-20 03:48:45,786 - easytorch-training - INFO - Epoch 164 / 200
+2023-12-20 03:52:56,802 - easytorch-training - INFO - Result <train>: [train_time: 251.02 (s), lr: 5.00e-04, train_MAE: 13.4072, train_RMSE: 21.8174, train_MAPE: 0.0893]
+2023-12-20 03:52:56,803 - easytorch-training - INFO - Start validation.
+2023-12-20 03:53:30,207 - easytorch-training - INFO - Result <val>: [val_time: 33.40 (s), val_MAE: 13.1728, val_RMSE: 21.9923, val_MAPE: 0.0901]
+2023-12-20 03:54:02,815 - easytorch-training - INFO - Result <test>: [test_time: 32.61 (s), test_MAE: 13.2255, test_RMSE: 22.0945, test_MAPE: 0.0919]
+2023-12-20 03:54:02,837 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_164.pt saved
+2023-12-20 03:54:02,837 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:29:18
+2023-12-20 03:54:02,837 - easytorch-training - INFO - Epoch 165 / 200
+2023-12-20 03:58:12,791 - easytorch-training - INFO - Result <train>: [train_time: 249.95 (s), lr: 5.00e-04, train_MAE: 13.4105, train_RMSE: 21.8277, train_MAPE: 0.0892]
+2023-12-20 03:58:12,792 - easytorch-training - INFO - Start validation.
+2023-12-20 03:58:45,755 - easytorch-training - INFO - Result <val>: [val_time: 32.96 (s), val_MAE: 13.2245, val_RMSE: 22.0513, val_MAPE: 0.0916]
+2023-12-20 03:59:19,451 - easytorch-training - INFO - Result <test>: [test_time: 33.69 (s), test_MAE: 13.3097, test_RMSE: 22.2327, test_MAPE: 0.0935]
+2023-12-20 03:59:19,472 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_165.pt saved
+2023-12-20 03:59:19,473 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:28:27
+2023-12-20 03:59:19,473 - easytorch-training - INFO - Epoch 166 / 200
+2023-12-20 04:03:29,830 - easytorch-training - INFO - Result <train>: [train_time: 250.36 (s), lr: 5.00e-04, train_MAE: 13.4183, train_RMSE: 21.8431, train_MAPE: 0.0893]
+2023-12-20 04:03:29,831 - easytorch-training - INFO - Start validation.
+2023-12-20 04:04:03,054 - easytorch-training - INFO - Result <val>: [val_time: 33.22 (s), val_MAE: 13.1696, val_RMSE: 21.9917, val_MAPE: 0.0904]
+2023-12-20 04:04:35,849 - easytorch-training - INFO - Result <test>: [test_time: 32.79 (s), test_MAE: 13.3132, test_RMSE: 22.2802, test_MAPE: 0.0936]
+2023-12-20 04:04:35,875 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_166.pt saved
+2023-12-20 04:04:35,875 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:27:36
+2023-12-20 04:04:35,875 - easytorch-training - INFO - Epoch 167 / 200
+2023-12-20 04:08:46,664 - easytorch-training - INFO - Result <train>: [train_time: 250.79 (s), lr: 5.00e-04, train_MAE: 13.4062, train_RMSE: 21.8120, train_MAPE: 0.0893]
+2023-12-20 04:08:46,665 - easytorch-training - INFO - Start validation.
+2023-12-20 04:09:19,353 - easytorch-training - INFO - Result <val>: [val_time: 32.69 (s), val_MAE: 13.1957, val_RMSE: 21.9681, val_MAPE: 0.0920]
+2023-12-20 04:09:52,763 - easytorch-training - INFO - Result <test>: [test_time: 33.41 (s), test_MAE: 13.3365, test_RMSE: 22.2098, test_MAPE: 0.0944]
+2023-12-20 04:09:52,783 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_167.pt saved
+2023-12-20 04:09:52,784 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:26:47
+2023-12-20 04:09:52,784 - easytorch-training - INFO - Epoch 168 / 200
+2023-12-20 04:14:02,108 - easytorch-training - INFO - Result <train>: [train_time: 249.32 (s), lr: 5.00e-04, train_MAE: 13.4021, train_RMSE: 21.8211, train_MAPE: 0.0893]
+2023-12-20 04:14:02,109 - easytorch-training - INFO - Start validation.
+2023-12-20 04:14:35,061 - easytorch-training - INFO - Result <val>: [val_time: 32.95 (s), val_MAE: 13.2085, val_RMSE: 22.0473, val_MAPE: 0.0910]
+2023-12-20 04:15:08,854 - easytorch-training - INFO - Result <test>: [test_time: 33.79 (s), test_MAE: 13.2475, test_RMSE: 22.0762, test_MAPE: 0.0946]
+2023-12-20 04:15:08,874 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_168.pt saved
+2023-12-20 04:15:08,875 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:25:57
+2023-12-20 04:15:08,875 - easytorch-training - INFO - Epoch 169 / 200
+2023-12-20 04:19:18,805 - easytorch-training - INFO - Result <train>: [train_time: 249.93 (s), lr: 5.00e-04, train_MAE: 13.4247, train_RMSE: 21.8540, train_MAPE: 0.0893]
+2023-12-20 04:19:18,806 - easytorch-training - INFO - Start validation.
+2023-12-20 04:19:51,754 - easytorch-training - INFO - Result <val>: [val_time: 32.95 (s), val_MAE: 13.2824, val_RMSE: 22.0999, val_MAPE: 0.0933]
+2023-12-20 04:20:25,083 - easytorch-training - INFO - Result <test>: [test_time: 33.33 (s), test_MAE: 13.3931, test_RMSE: 22.3215, test_MAPE: 0.0964]
+2023-12-20 04:20:25,104 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_169.pt saved
+2023-12-20 04:20:25,104 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:25:08
+2023-12-20 04:20:25,104 - easytorch-training - INFO - Epoch 170 / 200
+2023-12-20 04:24:36,820 - easytorch-training - INFO - Result <train>: [train_time: 251.72 (s), lr: 5.00e-04, train_MAE: 13.4087, train_RMSE: 21.8168, train_MAPE: 0.0892]
+2023-12-20 04:24:36,821 - easytorch-training - INFO - Start validation.
+2023-12-20 04:25:09,946 - easytorch-training - INFO - Result <val>: [val_time: 33.12 (s), val_MAE: 13.1755, val_RMSE: 21.9755, val_MAPE: 0.0890]
+2023-12-20 04:25:42,881 - easytorch-training - INFO - Result <test>: [test_time: 32.93 (s), test_MAE: 13.3109, test_RMSE: 22.2346, test_MAPE: 0.0920]
+2023-12-20 04:25:42,905 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_170.pt saved
+2023-12-20 04:25:42,911 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:24:21
+2023-12-20 04:25:42,912 - easytorch-training - INFO - Epoch 171 / 200
+2023-12-20 04:29:53,325 - easytorch-training - INFO - Result <train>: [train_time: 250.41 (s), lr: 5.00e-04, train_MAE: 13.4171, train_RMSE: 21.8338, train_MAPE: 0.0894]
+2023-12-20 04:29:53,326 - easytorch-training - INFO - Start validation.
+2023-12-20 04:30:26,647 - easytorch-training - INFO - Result <val>: [val_time: 33.32 (s), val_MAE: 13.2580, val_RMSE: 22.0643, val_MAPE: 0.0925]
+2023-12-20 04:30:59,120 - easytorch-training - INFO - Result <test>: [test_time: 32.47 (s), test_MAE: 13.3460, test_RMSE: 22.2371, test_MAPE: 0.0944]
+2023-12-20 04:30:59,144 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_171.pt saved
+2023-12-20 04:30:59,144 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:23:33
+2023-12-20 04:30:59,144 - easytorch-training - INFO - Epoch 172 / 200
+2023-12-20 04:35:09,331 - easytorch-training - INFO - Result <train>: [train_time: 250.19 (s), lr: 5.00e-04, train_MAE: 13.4113, train_RMSE: 21.8299, train_MAPE: 0.0893]
+2023-12-20 04:35:09,332 - easytorch-training - INFO - Start validation.
+2023-12-20 04:35:41,705 - easytorch-training - INFO - Result <val>: [val_time: 32.37 (s), val_MAE: 13.2378, val_RMSE: 22.0138, val_MAPE: 0.0935]
+2023-12-20 04:36:14,710 - easytorch-training - INFO - Result <test>: [test_time: 33.00 (s), test_MAE: 13.3473, test_RMSE: 22.1724, test_MAPE: 0.0957]
+2023-12-20 04:36:14,737 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_172.pt saved
+2023-12-20 04:36:14,737 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:22:45
+2023-12-20 04:36:14,737 - easytorch-training - INFO - Epoch 173 / 200
+2023-12-20 04:40:26,177 - easytorch-training - INFO - Result <train>: [train_time: 251.44 (s), lr: 5.00e-04, train_MAE: 13.4125, train_RMSE: 21.8189, train_MAPE: 0.0892]
+2023-12-20 04:40:26,178 - easytorch-training - INFO - Start validation.
+2023-12-20 04:40:59,299 - easytorch-training - INFO - Result <val>: [val_time: 33.12 (s), val_MAE: 13.2670, val_RMSE: 22.1293, val_MAPE: 0.0913]
+2023-12-20 04:41:32,203 - easytorch-training - INFO - Result <test>: [test_time: 32.90 (s), test_MAE: 13.3189, test_RMSE: 22.2126, test_MAPE: 0.0939]
+2023-12-20 04:41:32,225 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_173.pt saved
+2023-12-20 04:41:32,225 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:21:59
+2023-12-20 04:41:32,225 - easytorch-training - INFO - Epoch 174 / 200
+2023-12-20 04:45:47,627 - easytorch-training - INFO - Result <train>: [train_time: 255.40 (s), lr: 5.00e-04, train_MAE: 13.3977, train_RMSE: 21.8076, train_MAPE: 0.0894]
+2023-12-20 04:45:47,629 - easytorch-training - INFO - Start validation.
+2023-12-20 04:46:21,457 - easytorch-training - INFO - Result <val>: [val_time: 33.83 (s), val_MAE: 13.3604, val_RMSE: 22.2476, val_MAPE: 0.0957]
+2023-12-20 04:46:54,594 - easytorch-training - INFO - Result <test>: [test_time: 33.14 (s), test_MAE: 13.4574, test_RMSE: 22.4082, test_MAPE: 0.0981]
+2023-12-20 04:46:54,621 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_174.pt saved
+2023-12-20 04:46:54,621 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:21:20
+2023-12-20 04:46:54,621 - easytorch-training - INFO - Epoch 175 / 200
+2023-12-20 04:51:07,265 - easytorch-training - INFO - Result <train>: [train_time: 252.64 (s), lr: 5.00e-04, train_MAE: 13.4171, train_RMSE: 21.8314, train_MAPE: 0.0893]
+2023-12-20 04:51:07,266 - easytorch-training - INFO - Start validation.
+2023-12-20 04:51:41,434 - easytorch-training - INFO - Result <val>: [val_time: 34.17 (s), val_MAE: 13.2079, val_RMSE: 22.0104, val_MAPE: 0.0929]
+2023-12-20 04:52:14,891 - easytorch-training - INFO - Result <test>: [test_time: 33.46 (s), test_MAE: 13.3342, test_RMSE: 22.2779, test_MAPE: 0.0951]
+2023-12-20 04:52:14,915 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_175.pt saved
+2023-12-20 04:52:14,915 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:20:39
+2023-12-20 04:52:14,915 - easytorch-training - INFO - Epoch 176 / 200
+2023-12-20 04:56:26,957 - easytorch-training - INFO - Result <train>: [train_time: 252.04 (s), lr: 5.00e-04, train_MAE: 13.4057, train_RMSE: 21.8142, train_MAPE: 0.0892]
+2023-12-20 04:56:26,958 - easytorch-training - INFO - Start validation.
+2023-12-20 04:57:00,275 - easytorch-training - INFO - Result <val>: [val_time: 33.32 (s), val_MAE: 13.2306, val_RMSE: 21.9975, val_MAPE: 0.0946]
+2023-12-20 04:57:33,729 - easytorch-training - INFO - Result <test>: [test_time: 33.45 (s), test_MAE: 13.3291, test_RMSE: 22.2178, test_MAPE: 0.0962]
+2023-12-20 04:57:33,752 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_176.pt saved
+2023-12-20 04:57:33,753 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:19:56
+2023-12-20 04:57:33,753 - easytorch-training - INFO - Epoch 177 / 200
+2023-12-20 05:01:45,602 - easytorch-training - INFO - Result <train>: [train_time: 251.85 (s), lr: 5.00e-04, train_MAE: 13.4144, train_RMSE: 21.8258, train_MAPE: 0.0893]
+2023-12-20 05:01:45,603 - easytorch-training - INFO - Start validation.
+2023-12-20 05:02:18,718 - easytorch-training - INFO - Result <val>: [val_time: 33.11 (s), val_MAE: 13.3002, val_RMSE: 22.0953, val_MAPE: 0.0934]
+2023-12-20 05:02:51,785 - easytorch-training - INFO - Result <test>: [test_time: 33.07 (s), test_MAE: 13.3791, test_RMSE: 22.2237, test_MAPE: 0.0960]
+2023-12-20 05:02:51,810 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_177.pt saved
+2023-12-20 05:02:51,810 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:19:13
+2023-12-20 05:02:51,810 - easytorch-training - INFO - Epoch 178 / 200
+2023-12-20 05:07:04,651 - easytorch-training - INFO - Result <train>: [train_time: 252.84 (s), lr: 5.00e-04, train_MAE: 13.3785, train_RMSE: 21.7788, train_MAPE: 0.0892]
+2023-12-20 05:07:04,652 - easytorch-training - INFO - Start validation.
+2023-12-20 05:07:37,919 - easytorch-training - INFO - Result <val>: [val_time: 33.27 (s), val_MAE: 13.2697, val_RMSE: 22.0417, val_MAPE: 0.0956]
+2023-12-20 05:08:10,927 - easytorch-training - INFO - Result <test>: [test_time: 33.01 (s), test_MAE: 13.4013, test_RMSE: 22.3175, test_MAPE: 0.0976]
+2023-12-20 05:08:10,948 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_178.pt saved
+2023-12-20 05:08:10,948 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:18:32
+2023-12-20 05:08:10,948 - easytorch-training - INFO - Epoch 179 / 200
+2023-12-20 05:12:23,785 - easytorch-training - INFO - Result <train>: [train_time: 252.84 (s), lr: 5.00e-04, train_MAE: 13.4120, train_RMSE: 21.8355, train_MAPE: 0.0892]
+2023-12-20 05:12:23,786 - easytorch-training - INFO - Start validation.
+2023-12-20 05:12:57,500 - easytorch-training - INFO - Result <val>: [val_time: 33.71 (s), val_MAE: 13.1733, val_RMSE: 22.0072, val_MAPE: 0.0901]
+2023-12-20 05:13:31,645 - easytorch-training - INFO - Result <test>: [test_time: 34.14 (s), test_MAE: 13.2369, test_RMSE: 22.1560, test_MAPE: 0.0942]
+2023-12-20 05:13:31,666 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_179.pt saved
+2023-12-20 05:13:31,666 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:17:53
+2023-12-20 05:13:31,666 - easytorch-training - INFO - Epoch 180 / 200
+2023-12-20 05:17:49,224 - easytorch-training - INFO - Result <train>: [train_time: 257.56 (s), lr: 5.00e-04, train_MAE: 13.3961, train_RMSE: 21.8025, train_MAPE: 0.0892]
+2023-12-20 05:17:49,225 - easytorch-training - INFO - Start validation.
+2023-12-20 05:18:24,178 - easytorch-training - INFO - Result <val>: [val_time: 34.95 (s), val_MAE: 13.3105, val_RMSE: 22.0535, val_MAPE: 0.0937]
+2023-12-20 05:18:59,996 - easytorch-training - INFO - Result <test>: [test_time: 35.82 (s), test_MAE: 13.3895, test_RMSE: 22.2272, test_MAPE: 0.0968]
+2023-12-20 05:19:00,021 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_180.pt saved
+2023-12-20 05:19:00,030 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:17:23
+2023-12-20 05:19:00,030 - easytorch-training - INFO - Epoch 181 / 200
+2023-12-20 05:23:15,797 - easytorch-training - INFO - Result <train>: [train_time: 255.77 (s), lr: 5.00e-04, train_MAE: 13.3987, train_RMSE: 21.8036, train_MAPE: 0.0891]
+2023-12-20 05:23:15,798 - easytorch-training - INFO - Start validation.
+2023-12-20 05:23:49,243 - easytorch-training - INFO - Result <val>: [val_time: 33.44 (s), val_MAE: 13.3159, val_RMSE: 22.1614, val_MAPE: 0.0947]
+2023-12-20 05:24:22,268 - easytorch-training - INFO - Result <test>: [test_time: 33.02 (s), test_MAE: 13.3841, test_RMSE: 22.3124, test_MAPE: 0.0984]
+2023-12-20 05:24:22,289 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_181.pt saved
+2023-12-20 05:24:22,290 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:16:47
+2023-12-20 05:24:22,290 - easytorch-training - INFO - Epoch 182 / 200
+2023-12-20 05:28:36,451 - easytorch-training - INFO - Result <train>: [train_time: 254.16 (s), lr: 5.00e-04, train_MAE: 13.4107, train_RMSE: 21.8284, train_MAPE: 0.0892]
+2023-12-20 05:28:36,452 - easytorch-training - INFO - Start validation.
+2023-12-20 05:29:09,789 - easytorch-training - INFO - Result <val>: [val_time: 33.34 (s), val_MAE: 13.2607, val_RMSE: 22.1207, val_MAPE: 0.0946]
+2023-12-20 05:29:43,313 - easytorch-training - INFO - Result <test>: [test_time: 33.52 (s), test_MAE: 13.3587, test_RMSE: 22.2986, test_MAPE: 0.0977]
+2023-12-20 05:29:43,335 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_182.pt saved
+2023-12-20 05:29:43,335 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:16:10
+2023-12-20 05:29:43,335 - easytorch-training - INFO - Epoch 183 / 200
+2023-12-20 05:33:57,211 - easytorch-training - INFO - Result <train>: [train_time: 253.88 (s), lr: 5.00e-04, train_MAE: 13.4055, train_RMSE: 21.8209, train_MAPE: 0.0892]
+2023-12-20 05:33:57,212 - easytorch-training - INFO - Start validation.
+2023-12-20 05:34:29,893 - easytorch-training - INFO - Result <val>: [val_time: 32.68 (s), val_MAE: 13.2442, val_RMSE: 22.0540, val_MAPE: 0.0962]
+2023-12-20 05:35:03,378 - easytorch-training - INFO - Result <test>: [test_time: 33.48 (s), test_MAE: 13.4005, test_RMSE: 22.3551, test_MAPE: 0.0992]
+2023-12-20 05:35:03,404 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_183.pt saved
+2023-12-20 05:35:03,405 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:15:32
+2023-12-20 05:35:03,405 - easytorch-training - INFO - Epoch 184 / 200
+2023-12-20 05:39:16,478 - easytorch-training - INFO - Result <train>: [train_time: 253.07 (s), lr: 5.00e-04, train_MAE: 13.4044, train_RMSE: 21.8154, train_MAPE: 0.0892]
+2023-12-20 05:39:16,478 - easytorch-training - INFO - Start validation.
+2023-12-20 05:39:50,255 - easytorch-training - INFO - Result <val>: [val_time: 33.78 (s), val_MAE: 13.1814, val_RMSE: 22.0061, val_MAPE: 0.0897]
+2023-12-20 05:40:23,544 - easytorch-training - INFO - Result <test>: [test_time: 33.29 (s), test_MAE: 13.2732, test_RMSE: 22.1950, test_MAPE: 0.0931]
+2023-12-20 05:40:23,566 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_184.pt saved
+2023-12-20 05:40:23,567 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:14:54
+2023-12-20 05:40:23,567 - easytorch-training - INFO - Epoch 185 / 200
+2023-12-20 05:44:37,142 - easytorch-training - INFO - Result <train>: [train_time: 253.57 (s), lr: 5.00e-04, train_MAE: 13.4008, train_RMSE: 21.8154, train_MAPE: 0.0892]
+2023-12-20 05:44:37,143 - easytorch-training - INFO - Start validation.
+2023-12-20 05:45:11,243 - easytorch-training - INFO - Result <val>: [val_time: 34.10 (s), val_MAE: 13.2994, val_RMSE: 22.1436, val_MAPE: 0.0943]
+2023-12-20 05:45:44,964 - easytorch-training - INFO - Result <test>: [test_time: 33.72 (s), test_MAE: 13.4230, test_RMSE: 22.4187, test_MAPE: 0.0975]
+2023-12-20 05:45:44,985 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_185.pt saved
+2023-12-20 05:45:44,986 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:14:19
+2023-12-20 05:45:44,986 - easytorch-training - INFO - Epoch 186 / 200
+2023-12-20 05:50:01,550 - easytorch-training - INFO - Result <train>: [train_time: 256.56 (s), lr: 5.00e-04, train_MAE: 13.4022, train_RMSE: 21.8071, train_MAPE: 0.0891]
+2023-12-20 05:50:01,551 - easytorch-training - INFO - Start validation.
+2023-12-20 05:50:34,985 - easytorch-training - INFO - Result <val>: [val_time: 33.43 (s), val_MAE: 13.1933, val_RMSE: 22.0366, val_MAPE: 0.0936]
+2023-12-20 05:51:09,008 - easytorch-training - INFO - Result <test>: [test_time: 34.02 (s), test_MAE: 13.3530, test_RMSE: 22.3080, test_MAPE: 0.0964]
+2023-12-20 05:51:09,032 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_186.pt saved
+2023-12-20 05:51:09,032 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:13:46
+2023-12-20 05:51:09,033 - easytorch-training - INFO - Epoch 187 / 200
+2023-12-20 05:55:22,753 - easytorch-training - INFO - Result <train>: [train_time: 253.72 (s), lr: 5.00e-04, train_MAE: 13.4008, train_RMSE: 21.8116, train_MAPE: 0.0892]
+2023-12-20 05:55:22,754 - easytorch-training - INFO - Start validation.
+2023-12-20 05:55:56,074 - easytorch-training - INFO - Result <val>: [val_time: 33.32 (s), val_MAE: 13.1933, val_RMSE: 21.9402, val_MAPE: 0.0942]
+2023-12-20 05:56:29,840 - easytorch-training - INFO - Result <test>: [test_time: 33.76 (s), test_MAE: 13.2709, test_RMSE: 22.1251, test_MAPE: 0.0971]
+2023-12-20 05:56:29,870 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_187.pt saved
+2023-12-20 05:56:29,871 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:13:10
+2023-12-20 05:56:29,871 - easytorch-training - INFO - Epoch 188 / 200
+2023-12-20 06:00:45,522 - easytorch-training - INFO - Result <train>: [train_time: 255.65 (s), lr: 5.00e-04, train_MAE: 13.3953, train_RMSE: 21.7938, train_MAPE: 0.0891]
+2023-12-20 06:00:45,523 - easytorch-training - INFO - Start validation.
+2023-12-20 06:01:19,665 - easytorch-training - INFO - Result <val>: [val_time: 34.14 (s), val_MAE: 13.2222, val_RMSE: 22.1009, val_MAPE: 0.0914]
+2023-12-20 06:01:53,525 - easytorch-training - INFO - Result <test>: [test_time: 33.86 (s), test_MAE: 13.3272, test_RMSE: 22.3014, test_MAPE: 0.0947]
+2023-12-20 06:01:53,546 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_188.pt saved
+2023-12-20 06:01:53,546 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:12:38
+2023-12-20 06:01:53,546 - easytorch-training - INFO - Epoch 189 / 200
+2023-12-20 06:06:08,938 - easytorch-training - INFO - Result <train>: [train_time: 255.39 (s), lr: 5.00e-04, train_MAE: 13.3952, train_RMSE: 21.8004, train_MAPE: 0.0891]
+2023-12-20 06:06:08,939 - easytorch-training - INFO - Start validation.
+2023-12-20 06:06:42,953 - easytorch-training - INFO - Result <val>: [val_time: 34.01 (s), val_MAE: 13.1945, val_RMSE: 21.9912, val_MAPE: 0.0937]
+2023-12-20 06:07:17,207 - easytorch-training - INFO - Result <test>: [test_time: 34.25 (s), test_MAE: 13.3225, test_RMSE: 22.2041, test_MAPE: 0.0971]
+2023-12-20 06:07:17,228 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_189.pt saved
+2023-12-20 06:07:17,228 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:12:06
+2023-12-20 06:07:17,228 - easytorch-training - INFO - Epoch 190 / 200
+2023-12-20 06:11:30,835 - easytorch-training - INFO - Result <train>: [train_time: 253.61 (s), lr: 5.00e-04, train_MAE: 13.3841, train_RMSE: 21.7825, train_MAPE: 0.0890]
+2023-12-20 06:11:30,836 - easytorch-training - INFO - Start validation.
+2023-12-20 06:12:04,055 - easytorch-training - INFO - Result <val>: [val_time: 33.22 (s), val_MAE: 13.2350, val_RMSE: 22.0431, val_MAPE: 0.0922]
+2023-12-20 06:12:37,311 - easytorch-training - INFO - Result <test>: [test_time: 33.25 (s), test_MAE: 13.3249, test_RMSE: 22.2224, test_MAPE: 0.0963]
+2023-12-20 06:12:37,332 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_190.pt saved
+2023-12-20 06:12:37,339 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:11:31
+2023-12-20 06:12:37,339 - easytorch-training - INFO - Epoch 191 / 200
+2023-12-20 06:16:49,503 - easytorch-training - INFO - Result <train>: [train_time: 252.16 (s), lr: 5.00e-04, train_MAE: 13.3939, train_RMSE: 21.7974, train_MAPE: 0.0891]
+2023-12-20 06:16:49,504 - easytorch-training - INFO - Start validation.
+2023-12-20 06:17:22,308 - easytorch-training - INFO - Result <val>: [val_time: 32.80 (s), val_MAE: 13.2808, val_RMSE: 22.1302, val_MAPE: 0.0948]
+2023-12-20 06:17:55,740 - easytorch-training - INFO - Result <test>: [test_time: 33.43 (s), test_MAE: 13.3609, test_RMSE: 22.2850, test_MAPE: 0.0984]
+2023-12-20 06:17:55,763 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_191.pt saved
+2023-12-20 06:17:55,763 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:10:55
+2023-12-20 06:17:55,763 - easytorch-training - INFO - Epoch 192 / 200
+2023-12-20 06:22:33,299 - easytorch-training - INFO - Result <train>: [train_time: 277.54 (s), lr: 5.00e-04, train_MAE: 13.3827, train_RMSE: 21.7854, train_MAPE: 0.0891]
+2023-12-20 06:22:33,300 - easytorch-training - INFO - Start validation.
+2023-12-20 06:23:07,706 - easytorch-training - INFO - Result <val>: [val_time: 34.41 (s), val_MAE: 13.2570, val_RMSE: 22.0949, val_MAPE: 0.0931]
+2023-12-20 06:23:40,962 - easytorch-training - INFO - Result <test>: [test_time: 33.25 (s), test_MAE: 13.3119, test_RMSE: 22.2327, test_MAPE: 0.0961]
+2023-12-20 06:23:40,982 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_192.pt saved
+2023-12-20 06:23:40,982 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:10:46
+2023-12-20 06:23:40,982 - easytorch-training - INFO - Epoch 193 / 200
+2023-12-20 06:29:08,762 - easytorch-training - INFO - Result <train>: [train_time: 327.78 (s), lr: 5.00e-04, train_MAE: 13.3982, train_RMSE: 21.8096, train_MAPE: 0.0890]
+2023-12-20 06:29:08,763 - easytorch-training - INFO - Start validation.
+2023-12-20 06:29:42,959 - easytorch-training - INFO - Result <val>: [val_time: 34.20 (s), val_MAE: 13.2516, val_RMSE: 22.0452, val_MAPE: 0.0942]
+2023-12-20 06:30:16,613 - easytorch-training - INFO - Result <test>: [test_time: 33.65 (s), test_MAE: 13.3712, test_RMSE: 22.2738, test_MAPE: 0.0980]
+2023-12-20 06:30:16,636 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_193.pt saved
+2023-12-20 06:30:16,637 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:11:30
+2023-12-20 06:30:16,637 - easytorch-training - INFO - Epoch 194 / 200
+2023-12-20 06:35:18,996 - easytorch-training - INFO - Result <train>: [train_time: 302.36 (s), lr: 5.00e-04, train_MAE: 13.3960, train_RMSE: 21.8039, train_MAPE: 0.0890]
+2023-12-20 06:35:18,998 - easytorch-training - INFO - Start validation.
+2023-12-20 06:35:53,253 - easytorch-training - INFO - Result <val>: [val_time: 34.25 (s), val_MAE: 13.3250, val_RMSE: 22.1083, val_MAPE: 0.0960]
+2023-12-20 06:36:26,765 - easytorch-training - INFO - Result <test>: [test_time: 33.51 (s), test_MAE: 13.3451, test_RMSE: 22.1669, test_MAPE: 0.0997]
+2023-12-20 06:36:26,791 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_194.pt saved
+2023-12-20 06:36:26,791 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:11:47
+2023-12-20 06:36:26,791 - easytorch-training - INFO - Epoch 195 / 200
+2023-12-20 06:40:43,039 - easytorch-training - INFO - Result <train>: [train_time: 256.25 (s), lr: 5.00e-04, train_MAE: 13.3963, train_RMSE: 21.8107, train_MAPE: 0.0891]
+2023-12-20 06:40:43,040 - easytorch-training - INFO - Start validation.
+2023-12-20 06:41:15,889 - easytorch-training - INFO - Result <val>: [val_time: 32.85 (s), val_MAE: 13.2826, val_RMSE: 22.1203, val_MAPE: 0.0945]
+2023-12-20 06:41:49,915 - easytorch-training - INFO - Result <test>: [test_time: 34.02 (s), test_MAE: 13.3900, test_RMSE: 22.2953, test_MAPE: 0.0980]
+2023-12-20 06:41:49,935 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_195.pt saved
+2023-12-20 06:41:49,935 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:11:16
+2023-12-20 06:41:49,936 - easytorch-training - INFO - Epoch 196 / 200
+2023-12-20 06:46:04,465 - easytorch-training - INFO - Result <train>: [train_time: 254.53 (s), lr: 5.00e-04, train_MAE: 13.3848, train_RMSE: 21.7850, train_MAPE: 0.0890]
+2023-12-20 06:46:04,467 - easytorch-training - INFO - Start validation.
+2023-12-20 06:46:39,155 - easytorch-training - INFO - Result <val>: [val_time: 34.69 (s), val_MAE: 13.2949, val_RMSE: 22.0740, val_MAPE: 0.0949]
+2023-12-20 06:47:12,738 - easytorch-training - INFO - Result <test>: [test_time: 33.58 (s), test_MAE: 13.3901, test_RMSE: 22.3121, test_MAPE: 0.0987]
+2023-12-20 06:47:12,768 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_196.pt saved
+2023-12-20 06:47:12,769 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:10:45
+2023-12-20 06:47:12,769 - easytorch-training - INFO - Epoch 197 / 200
+2023-12-20 06:51:25,854 - easytorch-training - INFO - Result <train>: [train_time: 253.09 (s), lr: 5.00e-04, train_MAE: 13.3878, train_RMSE: 21.7927, train_MAPE: 0.0890]
+2023-12-20 06:51:25,855 - easytorch-training - INFO - Start validation.
+2023-12-20 06:52:00,018 - easytorch-training - INFO - Result <val>: [val_time: 34.16 (s), val_MAE: 13.1970, val_RMSE: 22.0587, val_MAPE: 0.0922]
+2023-12-20 06:52:33,211 - easytorch-training - INFO - Result <test>: [test_time: 33.19 (s), test_MAE: 13.2748, test_RMSE: 22.2040, test_MAPE: 0.0962]
+2023-12-20 06:52:33,233 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_197.pt saved
+2023-12-20 06:52:33,233 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:10:12
+2023-12-20 06:52:33,233 - easytorch-training - INFO - Epoch 198 / 200
+2023-12-20 06:56:48,005 - easytorch-training - INFO - Result <train>: [train_time: 254.77 (s), lr: 5.00e-04, train_MAE: 13.3840, train_RMSE: 21.7785, train_MAPE: 0.0890]
+2023-12-20 06:56:48,006 - easytorch-training - INFO - Start validation.
+2023-12-20 06:57:21,910 - easytorch-training - INFO - Result <val>: [val_time: 33.90 (s), val_MAE: 13.2246, val_RMSE: 22.0348, val_MAPE: 0.0950]
+2023-12-20 06:57:56,299 - easytorch-training - INFO - Result <test>: [test_time: 34.39 (s), test_MAE: 13.3048, test_RMSE: 22.1830, test_MAPE: 0.0988]
+2023-12-20 06:57:56,321 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_198.pt saved
+2023-12-20 06:57:56,322 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:09:42
+2023-12-20 06:57:56,322 - easytorch-training - INFO - Epoch 199 / 200
+2023-12-20 07:02:08,990 - easytorch-training - INFO - Result <train>: [train_time: 252.67 (s), lr: 5.00e-04, train_MAE: 13.3953, train_RMSE: 21.7998, train_MAPE: 0.0892]
+2023-12-20 07:02:08,991 - easytorch-training - INFO - Start validation.
+2023-12-20 07:02:42,928 - easytorch-training - INFO - Result <val>: [val_time: 33.94 (s), val_MAE: 13.1521, val_RMSE: 21.9723, val_MAPE: 0.0927]
+2023-12-20 07:03:16,958 - easytorch-training - INFO - Result <test>: [test_time: 34.03 (s), test_MAE: 13.2785, test_RMSE: 22.1999, test_MAPE: 0.0959]
+2023-12-20 07:03:16,980 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_199.pt saved
+2023-12-20 07:03:16,980 - easytorch-training - INFO - The estimated training finish time is 2023-12-20 07:09:09
+2023-12-20 07:03:16,980 - easytorch-training - INFO - Epoch 200 / 200
+2023-12-20 07:07:31,059 - easytorch-training - INFO - Result <train>: [train_time: 254.08 (s), lr: 5.00e-04, train_MAE: 13.3849, train_RMSE: 21.7788, train_MAPE: 0.0889]
+2023-12-20 07:07:31,060 - easytorch-training - INFO - Start validation.
+2023-12-20 07:08:04,450 - easytorch-training - INFO - Result <val>: [val_time: 33.39 (s), val_MAE: 13.3033, val_RMSE: 22.0942, val_MAPE: 0.0927]
+2023-12-20 07:08:37,953 - easytorch-training - INFO - Result <test>: [test_time: 33.50 (s), test_MAE: 13.3215, test_RMSE: 22.1743, test_MAPE: 0.0962]
+2023-12-20 07:08:37,979 - easytorch-training - INFO - Checkpoint checkpoints/TMAE_200/01aa15dbe5a3160364a26678f6c98285/TMAE_200.pt saved
+2023-12-20 07:08:37,987 - easytorch-training - INFO - The training finished at 2023-12-20 07:08:37

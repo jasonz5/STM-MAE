@@ -1,0 +1,13 @@
+easy_torch==1.2.12
+easydict
+easytorch
+numpy
+positional_encodings
+scikit_learn
+scipy
+setproctitle
+sympy
+timm
+torch
+torch_summary
+tvm

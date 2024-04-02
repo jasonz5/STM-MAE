@@ -1,0 +1,10 @@
+__pycache__/
+basicts/
+checkpoints/
+datasets/
+mask_save/
+
+scripts/*
+!scripts/data_preparation/SD/
+!scripts/data_preparation/all.sh
+
