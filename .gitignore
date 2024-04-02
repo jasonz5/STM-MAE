@@ -8,3 +8,4 @@ scripts/*
 !scripts/data_preparation/SD/
 !scripts/data_preparation/all.sh
 
+/home/data/liuerdong/Projects/MAE/STD_MAE/scripts/data_preparation/all.sh
