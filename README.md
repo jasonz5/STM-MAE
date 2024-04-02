@@ -9,8 +9,8 @@ The code is implemented based on [STD-MAE](https://github.com/jimmy-7664/std_mae
 
 
 ## Thinking 1: ST-Agnostic Masking
-+ 掩码预训练方式在STEP和STD-MAE的效果好于之前的SOTA方*法，俩者分别采用是时间掩码和时空解耦掩码。
-+ 而Kaiming的Video-MAE工作展现出来ST-Agnostic随机掩码的性能提升。
++ STEP和STD-MAE中采用了MAE，预测效果好于之前的SOTA方法，俩者分别采用是时间掩码和时空解耦掩码。
++ 而Kaiming的Video-MAE工作表明视频数据ST-Agnostic掩码效果更好。
 + Traffic和Video本质都是时空数据，这一部分尝试验证ST-Agnostic掩码的效果。
 
 ![STM-MAE methodology.](figures/stmmae1.png)
